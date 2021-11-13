@@ -1,0 +1,702 @@
+{
+    "dataVersion": 1,
+    "bodyType": 0,
+    "skinColor": {
+        "r": 1.0,
+        "g": 0.7647058963775635,
+        "b": 0.6392157077789307,
+        "a": 1.0
+    },
+    "tintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "slotData": [
+        {
+            "category": 0,
+            "partName": "Fantasy 05 Male",
+            "partPackage": "Fantasy",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 1,
+            "partName": "Fantasy 06",
+            "partPackage": "Fantasy",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 2,
+            "partName": "lionear",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.12175905704498291,
+                "g": 0.8872978687286377,
+                "b": 0.1654830425977707,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 3,
+            "partName": "lion eyebrow",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 4,
+            "partName": "lion eyes",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 5,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 6,
+            "partName": "Fantasy 06",
+            "partPackage": "Fantasy",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 7,
+            "partName": "lion hair",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.8159323334693909,
+                "g": 0.5102874636650086,
+                "b": 0.16372546553611756,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.8159323334693909,
+                "g": 0.5102874636650086,
+                "b": 0.16372546553611756,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.8159323334693909,
+                "g": 0.5102874636650086,
+                "b": 0.16372546553611756,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 8,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 9,
+            "partName": "LION mouth",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 10,
+            "partName": "Lion Nose",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 11,
+            "partName": "Fantasy 02 Male",
+            "partPackage": "Fantasy",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 12,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 13,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 14,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 15,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 16,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 17,
+            "partName": "lionlion",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        }
+    ],
+    "emoteData": [
+        {
+            "emotionType": 0,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 1,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 2,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 3,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 4,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 5,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 6,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 7,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 8,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 9,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 10,
+            "emotionName": "Blink",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "05",
+            "eyesPackage": "Base",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 11,
+            "emotionName": "Attack",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Base",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 12,
+            "emotionName": "Hurt",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "04",
+            "eyesPackage": "Base",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Base",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 13,
+            "emotionName": "Talk",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Emote",
+            "earPartName": "",
+            "earPackage": ""
+        }
+    ],
+    "bodySegmentData": [
+        {
+            "segmentType": 0,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 1,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 2,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 3,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 4,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 5,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 6,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 7,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 8,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 9,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}
