@@ -3579,6 +3579,26 @@ PrefabInstance:
       objectReference: {fileID: 318828111}
     - target: {fileID: 2618293801467890037, guid: d1dc8ede337634449951971ec8de0a1c,
         type: 3}
+      propertyPath: animspeedfast
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618293801467890037, guid: d1dc8ede337634449951971ec8de0a1c,
+        type: 3}
+      propertyPath: animspeedslow
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618293801467890037, guid: d1dc8ede337634449951971ec8de0a1c,
+        type: 3}
+      propertyPath: cameraspeedfast
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618293801467890037, guid: d1dc8ede337634449951971ec8de0a1c,
+        type: 3}
+      propertyPath: cameraspeedslow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618293801467890037, guid: d1dc8ede337634449951971ec8de0a1c,
+        type: 3}
       propertyPath: guides.Array.size
       value: 4
       objectReference: {fileID: 0}

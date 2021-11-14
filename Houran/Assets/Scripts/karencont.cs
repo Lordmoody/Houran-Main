@@ -19,6 +19,7 @@ public class karencont : MonoBehaviour
     GameObject eggy , fally;
     int i = 0 , j = 0 , k = 0;
     public GameObject[] fallers , numbers;
+    public float animspeedslow , animspeedfast , cameraspeedslow , cameraspeedfast;
     
     // Start is called before the first frame update
     void awake(){
@@ -30,39 +31,47 @@ public class karencont : MonoBehaviour
     {
         InvokeRepeating("count" , 0f , 1f);
         Invoke("nowstart" , 3f);
+        Invoke("camstart" , 3f);
     }
 
     // Update is called once per frame
     void Update()
     {
         if(begin == true){
-            if(stopEve == false){
                 lion.SetBool("run" , true);
-            }
             begin = false;
         }
 
         
 
         if(stopEve == true){
-            lion.SetBool("run" , false);
+           // lion.SetBool("run" , false);
+           lion.speed = animspeedslow;
+           Cameramover.speed2 = cameraspeedslow;
         }
-
+        else if(stopEve == false){
+            lion.speed = animspeedfast;
+            Cameramover.speed2 = cameraspeedfast;
+        }
         if(canvascont.jump == true){
             stopEve = false;
+            lion.SetBool("run" , false);
             jumper.SetTrigger("jump");
             lion.SetTrigger("jump");
-            
             Invoke("nowstart" , 0.34f);
             canvascont.jump = false;
         }
         if(canvascont.sitdown == true){
+            Cameramover.camstop = false;
+            lion.SetBool("run" , false);
             lion.SetBool("crouch" , true);
-            arrow.transform.Translate(Vector2.right * arrowspeed * Time.deltaTime);
+            Invoke("throwarrow" , 0.5f);
+            
             
         }
 
         if(catchers.passed == true){
+            Cameramover.camstop = true;
             lion.SetBool("crouch" , false);
             Destroy(arrow , 2f);
             nowstart();
@@ -70,6 +79,7 @@ public class karencont : MonoBehaviour
             catchers.passed = false;
         }
         if(canvascont.walk == true){
+            lion.SetBool("run" , false);
             lion.SetBool("walk" , true);
             stopEve = false;
             Cameramover.speed2 = 4f;
@@ -78,11 +88,12 @@ public class karencont : MonoBehaviour
         if(lastpass == true){
             lion.SetBool("walk" , false);
             nowstart();
-            Cameramover.speed2 = 8f;
+          //  Cameramover.speed2 = 8f;
             Destroy(eggy , 3f);
             lastpass = false;
         }
         if(canvascont.sprint == true){
+            lion.SetBool("run" , false);
             lion.SetBool("sprint" , true);
             stopEve = false;
             Cameramover.speed2 = 10f;
@@ -95,17 +106,22 @@ public class karencont : MonoBehaviour
         if(lastfalll == true){
             lion.SetBool("sprint" , false);
             nowstart();
-            Cameramover.speed2 = 8f;
+           // Cameramover.speed2 = 8f;
             Destroy( fally , 4f);
             lastfalll = false;
         }
         if(canvascont.hitted == true){
+            Cameramover.camstop = false;
+            lion.SetBool("run" , false);
             lion.SetTrigger("hit");
             Invoke("nowstart" , 0.5f);
+            Invoke("camstart" , 0.5f);
             canvascont.hitted = false;
         }
         if(canvascont.diedd == true){
+            Cameramover.camstop = false;
             secscore.SetActive(false);
+            lion.SetBool("run" , false);
             lion.SetBool("die" , true);
             stopEve = true;
             resultui.SetActive(true);
@@ -115,6 +131,8 @@ public class karencont : MonoBehaviour
         }
         if(finished == true){
             secscore.SetActive(false);
+            Cameramover.camstop = false;
+            lion.SetBool("run" , false);
             if(canvascont.score == 60){
                 resultui.SetActive(true);
                 resultanim.SetBool("one" , true);
@@ -138,6 +156,9 @@ public class karencont : MonoBehaviour
             
         }
     }
+    void throwarrow(){
+        arrow.transform.Translate(Vector2.right * arrowspeed * Time.deltaTime);
+    }
     void showscore(){
         finalscore.SetActive(true);
         finalscore.GetComponent<Text>().text = canvascont.score.ToString();
@@ -156,6 +177,9 @@ public class karencont : MonoBehaviour
     void nowstart(){
         stopEve = false;
         begin = true;
+    }
+    void camstart(){
+        Cameramover.camstop = true;
     }
     void letThemFall(){
         if(i < 5){
