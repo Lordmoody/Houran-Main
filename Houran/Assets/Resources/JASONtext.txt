@@ -1,0 +1,13 @@
+{
+    "player":[
+        {
+        "name": "warrior"
+        },
+        {
+        "name": "crack"
+        },
+        {
+        "name": "wizard"
+        }
+    ]
+}

@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tree.unity
     guid: 3187f5a67fd19dd42b6c26d56a8c2a97
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Runner1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/TestJason.unity
+    guid: 82b4273b6d4eb684cb9cd2d96aab8411
   m_configObjects: {}
