@@ -1,0 +1,16 @@
+{
+    "player":[
+       {
+            "name": "Saltar"
+        },
+        {
+            "name": "Andar"
+        },
+        {
+            "name": "siéntate"
+        },
+        {
+            "name": "Correr"
+        }
+    ]
+}

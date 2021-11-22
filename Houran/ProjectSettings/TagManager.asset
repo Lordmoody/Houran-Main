@@ -11,6 +11,9 @@ TagManager:
   - firstfall
   - lastfall
   - flag
+  - arrowcore
+  - jumpcore
+  - char
   layers:
   - Default
   - TransparentFX

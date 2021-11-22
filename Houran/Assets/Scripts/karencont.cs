@@ -6,32 +6,48 @@ using UnityEngine.SceneManagement;
 
 public class karencont : MonoBehaviour
 {
+    public AudioSource theme;
     public static bool stopEve = true;
     public static bool begin = false;
     bool lastpass = false , lastfalll = false , calllet = false;
     public float arrowspeed;
     public Animator lion , jumper , resultanim;
+    //*for controlling falling obstacles
+    public Animator forfallers;
+    public string[] fallingObstc;
+    public GameObject[] obscores;
+    public static GameObject nowobscore;
+    public static bool disobscatcher = true;
+    int oc =  0;
+    int f = 0;
+    //*
+
     public GameObject thoughtui , resultui , numberui , finalscore , secscore;
     bool jumpguid = true , sprintguid = true , sitguid = true , walkguid = true ;
     bool finished = false;
     public GameObject[] guides;
     GameObject arrow;
-    GameObject eggy , fally;
-    int i = 0 , j = 0 , k = 0;
+    GameObject eggy , fally , obsjump;
+    int i = 0 , j = 0 , k = 0 , m = 5;
     public GameObject[] fallers , numbers;
     public float animspeedslow , animspeedfast , cameraspeedslow , cameraspeedfast;
+    public Animator RedScreen;
+    public GameObject ScoreBack;
     
     // Start is called before the first frame update
     void awake(){
+       
         stopEve = true;
         begin = false;
+        disobscatcher = true;
 
     }
     void Start()
     {
         InvokeRepeating("count" , 0f , 1f);
-        Invoke("nowstart" , 3f);
-        Invoke("camstart" , 3f);
+        Invoke("nowstart" , 4f);
+        Invoke("camstart" , 4f);
+        Invoke("playTheme" , 4f);
     }
 
     // Update is called once per frame
@@ -46,26 +62,35 @@ public class karencont : MonoBehaviour
 
         if(stopEve == true){
            // lion.SetBool("run" , false);
+           theme.pitch = 0.5f;
            lion.speed = animspeedslow;
            Cameramover.speed2 = cameraspeedslow;
         }
         else if(stopEve == false){
+            theme.pitch = 1;
             lion.speed = animspeedfast;
             Cameramover.speed2 = cameraspeedfast;
         }
         if(canvascont.jump == true){
+            disobscatcher = false;
+            Destroy(obsjump , 2f);
             stopEve = false;
             lion.SetBool("run" , false);
             jumper.SetTrigger("jump");
             lion.SetTrigger("jump");
             Invoke("nowstart" , 0.34f);
             canvascont.jump = false;
+            Invoke("enablethen" , 1f);
         }
         if(canvascont.sitdown == true){
+            canvascont.SitOb = false;
+            disobscatcher = false;
+            stopEve = false;
             Cameramover.camstop = false;
             lion.SetBool("run" , false);
             lion.SetBool("crouch" , true);
             Invoke("throwarrow" , 0.5f);
+            Invoke("enablethen" , 1f);
             
             
         }
@@ -79,11 +104,14 @@ public class karencont : MonoBehaviour
             catchers.passed = false;
         }
         if(canvascont.walk == true){
+            canvascont.WalkOb = false;
+            disobscatcher = false;
+            stopEve = false;
             lion.SetBool("run" , false);
             lion.SetBool("walk" , true);
-            stopEve = false;
             Cameramover.speed2 = 4f;
             canvascont.walk = false;
+            Invoke("enablethen" , 1f);
         }
         if(lastpass == true){
             lion.SetBool("walk" , false);
@@ -93,15 +121,20 @@ public class karencont : MonoBehaviour
             lastpass = false;
         }
         if(canvascont.sprint == true){
+            canvascont.RunOb = false;
+            disobscatcher = false;
+            stopEve = false;
             lion.SetBool("run" , false);
             lion.SetBool("sprint" , true);
-            stopEve = false;
+            Invoke("fallem" , 0.5f);
             Cameramover.speed2 = 10f;
             calllet = true;
             canvascont.sprint = false;
+            Invoke("enablethen" , 1f);
         }
         if(calllet == true){
-            InvokeRepeating("letThemFall" , 0.1f , 0.3f);
+            Invoke("fallfinished" , 1.5f);
+            calllet = false;
         }
         if(lastfalll == true){
             lion.SetBool("sprint" , false);
@@ -111,28 +144,60 @@ public class karencont : MonoBehaviour
             lastfalll = false;
         }
         if(canvascont.hitted == true){
+            disobscatcher = false;
+            Cameramover.globalblurrate = 0f;
+            stopEve = false;
             Cameramover.camstop = false;
             lion.SetBool("run" , false);
+            AnimContAfterHit();
             lion.SetTrigger("hit");
             Invoke("nowstart" , 0.5f);
             Invoke("camstart" , 0.5f);
             canvascont.hitted = false;
+            Invoke("enablethen" , 1f);
+        }
+        if(hitObstacles.charhitted == true){
+            RedScreen.SetTrigger("red");
+            disableObsCores();
+            Cameramover.globalblurrate = 0f;
+            thoughtui.SetActive(false);
+            stopEve = false;
+            Cameramover.camstop = false;
+            lion.SetBool("run" , false);
+            AnimContAfterHit();
+            lion.SetTrigger("hit");
+            if(canvascont.score > 50 ){
+                canvascont.score -= 10;
+            }
+            else if(canvascont.score <= 50){
+                canvascont.diedd = true;
+            }
+            Invoke("nowstart" , 0.8f);
+            Invoke("camstart" , 0.8f);
+            hitObstacles.charhitted = false;
         }
         if(canvascont.diedd == true){
+            theme.Stop();
+            disobscatcher = false;
+            Cameramover.globalblurrate = 0f;
+            stopEve = false;
             Cameramover.camstop = false;
             secscore.SetActive(false);
+            ScoreBack.SetActive(false);
             lion.SetBool("run" , false);
             lion.SetBool("die" , true);
-            stopEve = true;
             resultui.SetActive(true);
             canvascont.setscore = true;
             resultanim.SetBool("died" , true);
             canvascont.diedd = false;
+           
         }
         if(finished == true){
+            theme.Stop();
             secscore.SetActive(false);
             Cameramover.camstop = false;
             lion.SetBool("run" , false);
+            ScoreBack.SetActive(false);
             if(canvascont.score == 60){
                 resultui.SetActive(true);
                 resultanim.SetBool("one" , true);
@@ -156,22 +221,57 @@ public class karencont : MonoBehaviour
             
         }
     }
+    void fallem(){
+        forfallers.SetBool(fallingObstc[f] , true);
+    }
     void throwarrow(){
         arrow.transform.Translate(Vector2.right * arrowspeed * Time.deltaTime);
+    }
+
+    void AnimContAfterHit(){
+        if(canvascont.SitOb == true){
+            Destroy(arrow);
+            canvascont.SitOb = false;
+        }
+        else if(canvascont.RunOb == true){
+            forfallers.SetBool(fallingObstc[f] , true);
+            calllet = true;
+            Destroy(fally , 1.6f);
+            canvascont.RunOb = false;
+        }
+        else if(canvascont.WalkOb == true){
+            canvascont.WalkOb = false;
+        }
+    }
+   
+    void disableObsCores(){
+      //  nowobscore = obscores[oc];
+        nowobscore.SetActive(false);
+       // obscores[oc].SetActive(false);
+       // if(oc < 12){
+       //     oc += 1;
+       // }
+        
+    }
+    void enablethen(){
+        disobscatcher = true;
     }
     void showscore(){
         finalscore.SetActive(true);
         finalscore.GetComponent<Text>().text = canvascont.score.ToString();
     }
     void count(){
-        if(j <3){
+        if(j <4){
             numbers[j].SetActive(true);
              j += 1;
         }
-        else if(j >=3){
+        else if(j >=4){
             numberui.SetActive(false);
         }
         
+    }
+    void playTheme(){
+        theme.Play();
     }
 
     void nowstart(){
@@ -181,51 +281,51 @@ public class karencont : MonoBehaviour
     void camstart(){
         Cameramover.camstop = true;
     }
-    void letThemFall(){
-        if(i < 5){
-            fallers[i].GetComponent<Rigidbody>().isKinematic = false;
-            fallers[i].GetComponent<Rigidbody>().useGravity = true;
-            i += 1;
+    void fallfinished(){
+        print("fall called");
+        forfallers.SetBool(fallingObstc[f] , false);
+        if(f<2){
+             f += 1;
         }
-        else if(i > 5){
-            calllet = false;
-
-        }
-        
     }
+   
 
     void OnTriggerEnter(Collider other){
         if(other.gameObject.tag == "obstaclej"){
+            obsjump = other.gameObject;
+            Cameramover.globalblurrate = 4f;
             stopEve = true;
             thoughtui.SetActive(true);
             
             if(jumpguid == true){
                 jumpguid = false;
-                guides[0].SetActive(true);
+              //  guides[0].SetActive(true);
             }
             canvascont.jumphit = true;
             print(canvascont.jumphit);
         }
         else if(other.gameObject.tag == "arrowup"){
+            canvascont.SitOb = true;
+             Cameramover.globalblurrate = 4f;
             stopEve = true;
             arrow = other.gameObject;
             thoughtui.SetActive(true);
             if(sitguid == true){
                 sitguid = false;
-                 guides[1].SetActive(true);
+              //   guides[1].SetActive(true);
             }
-           
-            
             canvascont.sitdownhit = true;
             print(canvascont.sitdownhit);
         }
         else if(other.gameObject.tag == "firstegg"){
+            canvascont.WalkOb = true;
+             Cameramover.globalblurrate = 4f;
             eggy = other.gameObject;
             stopEve = true;
             thoughtui.SetActive(true);
             if(walkguid == true){
                 walkguid = false;
-                guides[2].SetActive(true);
+              //  guides[2].SetActive(true);
             }
             canvascont.walkhit = true;
             print(canvascont.walkhit);
@@ -234,11 +334,14 @@ public class karencont : MonoBehaviour
             lastpass = true;
         }
         else if(other.gameObject.tag == "firstfall"){
+            canvascont.RunOb = true;
+            print("fall" + canvascont.RunOb);
+             Cameramover.globalblurrate = 4f;
             stopEve = true;
             thoughtui.SetActive(true);
             if(sprintguid == true){
                 sprintguid = false;
-                guides[3].SetActive(true);
+              //  guides[3].SetActive(true);
             }
             fally = other.gameObject;
             canvascont.sprinthit = true;
@@ -248,7 +351,7 @@ public class karencont : MonoBehaviour
             lastfalll = true;
         }
         else if(other.gameObject.tag == "flag"){
-            stopEve = true;
+           // stopEve = true;
             resultui.SetActive(true);
             finished = true;
         }
