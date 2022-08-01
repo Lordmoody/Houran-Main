@@ -1,0 +1,42 @@
+{
+    "words":[
+        {
+        "en": "Arrow",
+        "per": "تیر"
+        },
+        {
+        "en": "Gauntlet",
+        "per": "دستکش"
+        },
+        {
+        "en": "Crossbow",
+        "per": "ذوبین"
+        },
+        {
+        "en": "Papilon",
+        "per": "پروانه"
+        }
+    ],
+    "winsent":[
+        {
+            "sent": "You let the Darkness in",
+            "psent": "تو باعث ورود تاریکی شدی"
+        },
+        {
+            "sent": "Try Better Next Time",
+            "psent": "دفعه بعد بهتر تلاش کن"
+        },
+        {
+            "sent": "You did good",
+            "psent": "کارت خوب بود"
+        },
+        {
+            "sent": "Wow!You were Perfect",
+            "psent": "کارت عالی بود"
+        },
+        {
+            "sent": "Congrajulations!You defeated WitchFox",
+            "psent": "تبریک میگم!تو روباه جادوگر رو شکست داد"
+        }
+    ]
+}

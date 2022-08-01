@@ -14,6 +14,75 @@ TagManager:
   - arrowcore
   - jumpcore
   - char
+  - 1
+  - 0
+  - apple
+  - orange
+  - banana
+  - carrot
+  - pplayer
+  - FxTemporaire
+  - lioncore
+  - nottagged
+  - sittagged
+  - lightened
+  - darkened
+  - off
+  - notburnt
+  - correctb
+  - wrongb
+  - darkness
+  - Light
+  - Book
+  - Pen
+  - Pencil
+  - Ruler
+  - Arrow
+  - Gauntlet
+  - Crossbow
+  - Hatchet
+  - Earings
+  - Tie
+  - Suit
+  - Heel
+  - Papilon
+  - destiny
+  - SNotburnt
+  - Word1Box
+  - Word2Box
+  - Word3Box
+  - Word4Box
+  - Word5Box
+  - Card1
+  - Card2
+  - Card3
+  - Card4
+  - went
+  - found
+  - Scared
+  - Down
+  - chosen
+  - PlayerCore
+  - Dark
+  - BeforeLighten
+  - Lightened
+  - Bought
+  - NotBought
+  - TreeCamera
+  - Audio
+  - GuideSoul
+  - barrel
+  - Hub
+  - pushable
+  - Canvas
+  - ground
+  - PlayerPhysics
+  - Circle
+  - playerParent
+  - platform1
+  - EnvBase
+  - Global
+  - bookstr
   layers:
   - Default
   - TransparentFX
@@ -23,31 +92,55 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - player
+  - obstacles
+  - ground
+  - door
+  - other
+  - Enemy
+  - PlayerCompnents
+  - EnemyComponents
+  - PlayerCore
+  - SideCharacters
+  - Items
+  - Audios
+  - Guide
+  - Platform
+  - boundry
+  - spikes
+  - pushable
+  - bouncer
+  - acid
+  - other
   - 
   - 
   - 
   - 
   m_SortingLayers:
+  - name: Sky
+    uniqueID: 2899156669
+    locked: 0
+  - name: BackFar
+    uniqueID: 1174135071
+    locked: 0
+  - name: Tree
+    uniqueID: 613260245
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 686110975
+    locked: 0
+  - name: ground
+    uniqueID: 2092550255
+    locked: 0
+  - name: FarGround
+    uniqueID: 2259438731
+    locked: 0
+  - name: CloudTrans
+    uniqueID: 3323545011
+    locked: 0
+  - name: KTree
+    uniqueID: 2945216593
     locked: 0

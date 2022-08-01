@@ -5,13 +5,58 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tree.unity
     guid: 3187f5a67fd19dd42b6c26d56a8c2a97
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/PlatformerL1.unity
+    guid: d0af7dc892015f4409ea3b25034f2920
+  - enabled: 0
     path: Assets/Scenes/Runner1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
+    path: Assets/Scenes/RunnerPictureBase.unity
+    guid: f13366a4299a2ad4797c8c9aa6606555
+  - enabled: 0
+    path: Assets/Scenes/RunnerD&D.unity
+    guid: 233dd22924dc30b4ea8a6c9ed660e70d
+  - enabled: 0
+    path: Assets/Scenes/RunnerVoiceBase.unity
+    guid: 898d6dca7a3fd9d4997350478dfddb12
+  - enabled: 0
+    path: Assets/Scenes/Maze.unity
+    guid: bc4fa91d065161744b6283a9a26061bf
+  - enabled: 0
     path: Assets/Scenes/TestJason.unity
     guid: 82b4273b6d4eb684cb9cd2d96aab8411
+  - enabled: 0
+    path: Assets/Scenes/testForTTsandSTT.unity
+    guid: ac14c8b1a829e4647b89e34fdb02cd09
+  - enabled: 0
+    path: Assets/Scenes/NewDragDrop.unity
+    guid: 800a7e1b88701834d8f964c1a330f8cc
+  - enabled: 0
+    path: Assets/Scenes/LightInVoidDD.unity
+    guid: ccc13d12dddc96844b7499a1e370a6a4
+  - enabled: 0
+    path: Assets/Scenes/NewDragDrop 1.unity
+    guid: a68248b4add56484eac3d6cbad033004
+  - enabled: 0
+    path: Assets/Scenes/NewDragDrop 2.unity
+    guid: c6d572e2e9a75b94bb4cd2f6684430cc
+  - enabled: 0
+    path: Assets/Scenes/FoxChallenge.unity
+    guid: f86a2ee6d7fd68541b0a8a52cd19f08c
+  - enabled: 0
+    path: Assets/Scenes/LightInVoidDD 1.unity
+    guid: dd45d8b966b427e4d9070038d21e1c7d
+  - enabled: 1
+    path: Assets/Scenes/NewChanges/Menu.unity
+    guid: 5f421d5c4883e5443972e463b7d83627
+  - enabled: 1
+    path: Assets/Scenes/NewChanges/TestMovement.unity
+    guid: 529768f2494e0e648aeb5ad379b2d1f7
+  - enabled: 0
+    path: Assets/Scenes/NewChanges/TreeOfKnowledge.unity
+    guid: 0c84cc0f12d674f45ba0ce7622cd7bcf
   m_configObjects: {}

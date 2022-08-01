@@ -1,0 +1,64 @@
+{
+    "Words":[
+        {
+        "name": "Cat",
+        "trans": "گربه",
+        "fr": "le chat"
+        },
+        {
+        "name": "Elephant",
+        "trans": "فیل",
+        "fr": "l'éléphant"
+        },
+        {
+        "name": "Fox",
+        "trans": "روباه",
+        "fr": "le renard"
+        },
+        {
+        "name": "Fish",
+        "trans": "ماهی",
+        "fr": "le poisson"
+        },
+        {
+        "name": "Wolf",
+        "trans": "گرگ",
+        "fr": "le loup"
+        },
+        {
+        "name": "Bear",
+        "trans": "خرس",
+        "fr": "l' ours"
+        },
+        {
+        "name": "Monkey",
+        "trans": "میمون",
+        "fr": "le singe"
+        },
+        {
+        "name": "Horse",
+        "trans": "اسب",
+        "fr": "le cheval"
+        },
+        {
+            "name": "Lion",
+            "trans": "شیر",
+            "fr": "lion"
+        },
+        {
+            "name": "Dog",
+            "trans": "سگ",
+            "fr": "chien"
+        },
+        {
+            "name": "Sheep",
+            "trans": "گوسفند",
+            "fr": "mouton"
+        },
+        {
+            "name": "Pig",
+            "trans": "خوک",
+            "fr": "porc"
+        }
+    ] 
+}

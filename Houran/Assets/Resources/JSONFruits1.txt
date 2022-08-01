@@ -1,0 +1,24 @@
+{
+    "Words":[
+        {
+            "name": "Apple",
+            "trans": "سیب",
+            "fr": "Pomme"
+        },
+        {
+            "name": "Orange",
+            "trans": "پرتقال",
+            "fr": "orange"
+        },
+        {
+            "name": "Coconut",
+            "trans": "نارگیل",
+            "fr": "noix de coco"
+        },
+        {
+            "name": "Banana",
+            "trans": "موز",
+            "fr": "Banane"
+        }
+    ] 
+}

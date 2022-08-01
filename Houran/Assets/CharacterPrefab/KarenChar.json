@@ -1,0 +1,702 @@
+{
+    "dataVersion": 1,
+    "bodyType": 0,
+    "skinColor": {
+        "r": 1.0,
+        "g": 0.7647058963775635,
+        "b": 0.6392157077789307,
+        "a": 1.0
+    },
+    "tintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "slotData": [
+        {
+            "category": 0,
+            "partName": "Karen Armor2",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5735294222831726,
+                "g": 0.24918867647647859,
+                "b": 0.22772492468357087,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.8529411554336548,
+                "g": 0.6539792418479919,
+                "b": 0.22577854990959168,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.8308823704719544,
+                "g": 0.8308823704719544,
+                "b": 0.8308823704719544,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 1,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 2,
+            "partName": "Karen Ear",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 3,
+            "partName": "Karen Eyebrow",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 4,
+            "partName": "Karen Eye",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 5,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 6,
+            "partName": "Karen Gloves",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 7,
+            "partName": "Karen Hair3",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.3019607961177826,
+                "g": 0.1921568661928177,
+                "b": 0.1921568661928177,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 8,
+            "partName": "Karen Helmet1",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.8382352590560913,
+                "g": 0.5846248865127564,
+                "b": 0.3205017149448395,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.15441179275512696,
+                "g": 0.10451766848564148,
+                "b": 0.09310122579336167,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.1764705777168274,
+                "g": 0.375,
+                "b": 0.3174949288368225,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 9,
+            "partName": "Karen Mouth",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 1.0,
+                "g": 0.7647058963775635,
+                "b": 0.6392157077789307,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 10,
+            "partName": "Karen nose1",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 11,
+            "partName": "karen pants 2",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.8093964457511902,
+                "g": 0.719817042350769,
+                "b": 0.4883888065814972,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5115002989768982,
+                "g": 0.33835694193840029,
+                "b": 0.1846732795238495,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.595588207244873,
+                "g": 0.21781855821609498,
+                "b": 0.13137973845005036,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 12,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 13,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 14,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 15,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 16,
+            "partName": "",
+            "partPackage": "",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        },
+        {
+            "category": 17,
+            "partName": "Karen Body1",
+            "partPackage": "Custom",
+            "color1": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color2": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "color3": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            }
+        }
+    ],
+    "emoteData": [
+        {
+            "emotionType": 0,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 1,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 2,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 3,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 4,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 5,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 6,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 7,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 8,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 9,
+            "emotionName": "",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 10,
+            "emotionName": "Blink",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "05",
+            "eyesPackage": "Base",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "",
+            "mouthPackage": "",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 11,
+            "emotionName": "Attack",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Base",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 12,
+            "emotionName": "Hurt",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "04",
+            "eyesPackage": "Base",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Base",
+            "earPartName": "",
+            "earPackage": ""
+        },
+        {
+            "emotionType": 13,
+            "emotionName": "Talk",
+            "eyebrowPartName": "",
+            "eyebrowPackage": "",
+            "eyesPartName": "",
+            "eyesPackage": "",
+            "nosePartName": "",
+            "nosePackage": "",
+            "mouthPartName": "06",
+            "mouthPackage": "Emote",
+            "earPartName": "",
+            "earPackage": ""
+        }
+    ],
+    "bodySegmentData": [
+        {
+            "segmentType": 0,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 1,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 2,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 3,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 4,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 5,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 6,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 7,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 8,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "segmentType": 9,
+            "scale": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

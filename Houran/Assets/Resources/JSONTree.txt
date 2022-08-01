@@ -1,0 +1,145 @@
+{
+    "player":[
+        {
+            "name": "Apple",
+            "trans": "سیب",
+        "fr": "Pomme"
+        },
+        {
+            "name": "Orange",
+            "trans": "پرتقال",
+        "fr": "orange"
+        },
+        {
+            "name": "Coconut",
+            "trans": "نارگیل",
+        "fr": "noix de coco"
+        },
+        {
+            "name": "Banana",
+            "trans": "موز",
+        "fr": "Banane"
+        },
+        {
+        "name": "Cat",
+        "trans": "گربه",
+        "fr": "le chat"
+        },
+        {
+        "name": "Elephant",
+        "trans": "فیل",
+        "fr": "l'éléphant"
+        },
+        {
+        "name": "Fox",
+        "trans": "روباه",
+        "fr": "le renard"
+        },
+        {
+        "name": "Fish",
+        "trans": "ماهی",
+        "fr": "le poisson"
+        },
+        {
+        "name": "Wolf",
+        "trans": "گرگ",
+        "fr": "le loup"
+        },
+        {
+        "name": "Bear",
+        "trans": "خرس",
+        "fr": "l' ours"
+        },
+        {
+        "name": "Monkey",
+        "trans": "میمون",
+        "fr": "le singe"
+        },
+        {
+        "name": "Horse",
+        "trans": "اسب",
+        "fr": "le cheval"
+        },
+        {
+            "name": "Lion",
+            "trans": "شیر",
+            "fr": "lion"
+        },
+        {
+            "name": "Dog",
+            "trans": "سگ",
+            "fr": "chien"
+        },
+        {
+            "name": "Sheep",
+            "trans": "گوسفند",
+            "fr": "mouton"
+        },
+        {
+            "name": "Pig",
+            "trans": "خوک",
+            "fr": "porc"
+        },
+        {
+        "name": "Talk",
+        "trans": "صحبت کردن",
+        "fr": "parler"
+        },
+        {
+        "name": "Use",
+        "trans": "استفاده کردن",
+        "fr": "utiliser"
+        },
+        {
+        "name": "Want",
+        "trans": "خواستن",
+        "fr": "vouloir"
+        },
+        {
+        "name": "Look",
+        "trans": "نگاه کردن",
+        "fr": "regarder"
+        },
+        {
+        "name": "Come",
+        "trans": "آمدن",
+        "fr": "Viens"
+        },
+        {
+        "name": "See",
+        "trans": "دیدن",
+        "fr": "voir"
+        },
+        {
+        "name": "Know",
+        "trans": "دانستن",
+        "fr": "savoir"
+        },
+        {
+        "name": "Make",
+        "trans": "ساختن",
+        "fr": "Fabriquer"
+        },
+        {
+            "name": "Get",
+            "trans": "گرفتن",
+            "fr": "obtenir"
+        },
+        {
+            "name": "Go",
+            "trans": "رفتن",
+            "fr": "aller"
+        },
+        {
+            "name": "Say",
+            "trans": "گفتن",
+            "fr": "dire"
+        },
+        {
+            "name": "Do",
+            "trans": "انجام دادن",
+            "fr": "fais"
+        }
+        
+    ] 
+}

@@ -35,7 +35,7 @@ public class JsonReader : MonoBehaviour
     void Awake(){
         gamePath = Application.dataPath + "/Resources";
         //set the downloadfile to game path
-      //  var dlpath = new DownloadHandlerFile(gamePath);
+      //  string dlpath = new DownloadHandlerFile(gamePath);
        textJasoneng = Resources.Load<TextAsset>("JASONtext");
          myPlayerList = JsonUtility.FromJson<PlayerList>(textJasoneng.text);
        names.text = myPlayerList.player[0].name;

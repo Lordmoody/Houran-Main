@@ -1,0 +1,58 @@
+{
+    "uiper":[
+        {
+            "dial":"یه رودخونه سر راه! کلمه جادویی پل رو بنداز اینجا تا بتونی رد شی"
+        },
+        {
+            "dial":"آتیش سر راه! کلمه جادویی خاموش کردن رو بنداز اینجا تا بتونی رد شی"
+        },
+        {
+            "dial":"یه سنگ سر راه! کلمه جادویی بلند کردن رو بنداز اینجا تا بتونی رد شی"
+        },
+        {
+            "dial":"یه رودخونه سر راه! کلمه جادویی پل رو بنداز اینجا تا بتونی رد شی"
+        }
+    ],
+    "uien":[
+        {
+            "dial":"A river is on the way Drag and Drop the Bridge magical word here to pass."
+        },
+        {
+            "dial":"Fire is on the way Drag and Drop the Turn Off magical word here to pass."
+        },
+        {
+            "dial":"A stone is on the way Drag and Drop the Rise magical word here to pass."
+        },
+        {
+            "dial":"A river is on the way Drag and Drop the Bridge magical word here to pass."
+        }
+    ],
+    "perword":[
+        {
+            "word":"پل"
+        },
+        {
+            "word":"خاموش کردن"
+        },
+        {
+            "word":"بلند کردن"
+        },
+        {
+            "word":"دویدن"
+        }
+    ],
+    "enword":[
+        {
+            "word":"Bridge"
+        },
+        {
+            "word":"Turn off"
+        },
+        {
+            "word":"Rise"
+        },
+        {
+            "word":"Sprint"
+        }
+    ]
+}

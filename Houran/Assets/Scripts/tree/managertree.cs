@@ -11,6 +11,7 @@ public class managertree : MonoBehaviour
 {
     public static string BaseLang , DestLang;
     public static string[] desttexts , basetexts;
+    public static string readThis;
     public GameObject cancas1 , canvas2;
     public GameObject movetree;
     
@@ -23,6 +24,8 @@ public class managertree : MonoBehaviour
     int pb = 0;
     //localization
     public TextAsset textJasoneng;
+    public SpeechController speechController;
+    public SpeechControllerVoiceBase speechCVB;
     public TextAsset textJasonOth;
     int lenghtar;
     int i = 0 , j = 0 , s = 0;
@@ -99,7 +102,8 @@ public class managertree : MonoBehaviour
         flashjump.SetActive(true);
         pb = 0;
         playButtons.SetActive(true);
-        voices.clip = Resources.Load<AudioClip>("voices/Jump");
+        readThis = desttexts[0];
+       // voices.clip = Resources.Load<AudioClip>("voices/Jump");
         closeb.SetActive(true);
         thisone = flashjump;
     }
@@ -110,7 +114,8 @@ public class managertree : MonoBehaviour
         flashjump.SetActive(true);
         pb = 1;
         playButtons.SetActive(true);
-        voices.clip = Resources.Load<AudioClip>("voices/Walk");
+        readThis = desttexts[1];
+       // voices.clip = Resources.Load<AudioClip>("voices/Walk");
         closeb.SetActive(true);
         thisone = flashjump;
     }
@@ -121,7 +126,8 @@ public class managertree : MonoBehaviour
         flashjump.SetActive(true);
         pb = 2;
         playButtons.SetActive(true);
-        voices.clip = Resources.Load<AudioClip>("voices/Sitdown");
+        readThis = desttexts[2];
+      //  voices.clip = Resources.Load<AudioClip>("voices/Sitdown");
         closeb.SetActive(true);
         thisone = flashjump;
     }
@@ -132,7 +138,8 @@ public class managertree : MonoBehaviour
         flashjump.SetActive(true);
         pb = 3;
         playButtons.SetActive(true);
-        voices.clip = Resources.Load<AudioClip>("voices/Run");
+        readThis = desttexts[3];
+       // voices.clip = Resources.Load<AudioClip>("voices/Run");
         closeb.SetActive(true);
         thisone = flashjump;
     }
@@ -155,7 +162,7 @@ public class managertree : MonoBehaviour
     }
     public void GoToGame(){
         pan.pann = true;
-        SceneManager.LoadScene("Runner1");
+        SceneManager.LoadScene("PlatformerL1");
     }
     public void ExitTheGame(){
         Application.Quit();
@@ -198,6 +205,10 @@ public class managertree : MonoBehaviour
     public void DropDownItemSelectDestination(Dropdown dropdown){
         if(dropdown.value == 0){
             DestLang = "English";
+            SpeechController.LANG_CODE = "en_US";
+            speechController.Setup(SpeechController.LANG_CODE);
+            SpeechControllerVoiceBase.LANG_CODE = "en_US";
+            speechCVB.Setup(SpeechControllerVoiceBase.LANG_CODE);
             textJasoneng = Resources.Load<TextAsset>("JASONtext");
             myPlayerList = JsonUtility.FromJson<PlayerList>(textJasoneng.text);
             for(i = 0; i < 4 ; i++){
@@ -206,6 +217,10 @@ public class managertree : MonoBehaviour
         }
         else if(dropdown.value == 1){
             DestLang = "Persian";
+            SpeechController.LANG_CODE = "fa_IR";
+            speechController.Setup(SpeechController.LANG_CODE);
+            SpeechControllerVoiceBase.LANG_CODE = "fa_IR";
+            speechCVB.Setup(SpeechControllerVoiceBase.LANG_CODE);
             textJasoneng = Resources.Load<TextAsset>("JsonPer");
             myPlayerList = JsonUtility.FromJson<PlayerList>(textJasoneng.text);
             for(i = 0; i < 4 ; i++){
@@ -214,6 +229,10 @@ public class managertree : MonoBehaviour
         }
         else if(dropdown.value == 2){
             DestLang = "Spanish";
+            SpeechController.LANG_CODE = "es_ES";
+            speechController.Setup(SpeechController.LANG_CODE);
+            SpeechControllerVoiceBase.LANG_CODE = "es_ES";
+            speechCVB.Setup(SpeechControllerVoiceBase.LANG_CODE);
             textJasoneng = Resources.Load<TextAsset>("JsonSpa");
             myPlayerList = JsonUtility.FromJson<PlayerList>(textJasoneng.text);
             for(i = 0; i < 4 ; i++){

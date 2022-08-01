@@ -12,5 +12,65 @@
         {
         "name": "Run"
         }
+    ],
+    "runnerpic":[
+        {
+            "word": "Apple",
+            "char1": "Mr.Elk Wants an ",
+            "char2": "Mr.Bear Wants an ",
+            "char3": "Mr.Mice Wants an "
+        },
+        {
+            "word": "Orange",
+            "char1": "Mr.Monkey Wants an ",
+            "char2": "Mr.Raccoon Wants an ",
+            "char3": "Mrs.Squirel Wants an "
+        },
+        {
+            "word": "Carrot",
+            "char1": "Miss.Rabbit Wants a ",
+            "char2": "Mr.Deer Wants a ",
+            "char3": "Mr.Dog Wants a "
+        },
+        {
+            "word": "Banana",
+            "char1": "Mr.Monkey Wants a ",
+            "char2": "Mr.Gorrila Wants a ",
+            "char3": "Mr.Elephant Wants a "
+        }
+    ],
+    "runnerpicper":[
+        {
+            "word": "سیب",
+            "char1": " آقای گوزن می خواد یدونه",
+            "char2": " آقای خرس می خواد یدونه",
+            "char3": " آقای موش می خواد یدونه"
+        },
+        {
+            "word": "پرتقال",
+            "char1": " آقای میمون می خواد یدونه",
+            "char2": " آقای راکون می خواد یدونه",
+            "char3": " خانم سنجاب می خواد یدونه"
+        },
+        {
+            "word": "هویج",
+            "char1": " خانم خرگوش می خواد یدونه",
+            "char2": " آقای آهو می خواد یدونه",
+            "char3": " آقای سگ می خواد یدونه"
+        },
+        {
+            "word": "موز",
+            "char1": " آقای میمون می خواد یدونه",
+            "char2": " آقای گوریل می خواد یدونه",
+            "char3": " آقای فیل می خواد یدونه"
+        }
+    ],
+    "Voice":[
+        {
+            "dial":"بزن رو کلید زیر و کلمه مناسب رو بگو"
+        },
+        {
+            "dial":"Touch The Button And Say The Proper Word"
+        }
     ]
 }

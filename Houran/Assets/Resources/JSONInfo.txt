@@ -1,0 +1,10 @@
+{
+    "Info":[
+        {
+            "txt": "<br> <br> An Apple, <br> An Orange, <br> A Coconut, <br> A Banana"
+        },
+        {
+            "txt": "<br> <br> le Pomme <br> l' orange <br> la noix de coco <br> la Banane"
+        }
+    ]
+}

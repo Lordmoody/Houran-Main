@@ -1,0 +1,2528 @@
+fileFormatVersion: 2
+guid: 278ec4ef4d4873c48adf0a7634042f73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8480089228794001168
+    second: matt-shaw-sheet01_0
+  - first:
+      213: -3295892465862002753
+    second: matt-shaw-sheet01_1
+  - first:
+      213: 1937218768382817440
+    second: matt-shaw-sheet01_2
+  - first:
+      213: -1502851532944624530
+    second: matt-shaw-sheet01_3
+  - first:
+      213: -5446249710635684694
+    second: matt-shaw-sheet01_4
+  - first:
+      213: 4671156292858788684
+    second: matt-shaw-sheet01_5
+  - first:
+      213: 4602751389601021565
+    second: matt-shaw-sheet01_6
+  - first:
+      213: 7524559742703790207
+    second: matt-shaw-sheet01_7
+  - first:
+      213: 2973859597765556604
+    second: matt-shaw-sheet01_8
+  - first:
+      213: 5169117836724515127
+    second: matt-shaw-sheet01_9
+  - first:
+      213: -3892507794470257714
+    second: matt-shaw-sheet01_10
+  - first:
+      213: -7061757131353041449
+    second: matt-shaw-sheet01_11
+  - first:
+      213: -2364967040483372180
+    second: matt-shaw-sheet01_12
+  - first:
+      213: -4356414589202967661
+    second: matt-shaw-sheet01_13
+  - first:
+      213: 4363376339987926260
+    second: matt-shaw-sheet01_14
+  - first:
+      213: 8945876740536010066
+    second: matt-shaw-sheet01_15
+  - first:
+      213: -446425494203655439
+    second: matt-shaw-sheet01_16
+  - first:
+      213: -1472370214327117885
+    second: matt-shaw-sheet01_17
+  - first:
+      213: 2120983158090779789
+    second: matt-shaw-sheet01_18
+  - first:
+      213: 4511308341700488687
+    second: matt-shaw-sheet01_19
+  - first:
+      213: 4420234709934318969
+    second: matt-shaw-sheet01_20
+  - first:
+      213: 2656932734158281614
+    second: matt-shaw-sheet01_21
+  - first:
+      213: -2678952895522892640
+    second: matt-shaw-sheet01_22
+  - first:
+      213: 4952688367592496242
+    second: matt-shaw-sheet01_23
+  - first:
+      213: -3345403517697650558
+    second: matt-shaw-sheet01_24
+  - first:
+      213: -4305815795026072713
+    second: matt-shaw-sheet01_25
+  - first:
+      213: -2323831129727463187
+    second: matt-shaw-sheet01_26
+  - first:
+      213: 6966001907828821809
+    second: matt-shaw-sheet01_27
+  - first:
+      213: 7850062359998793565
+    second: matt-shaw-sheet01_28
+  - first:
+      213: -2815696226002489422
+    second: matt-shaw-sheet01_29
+  - first:
+      213: -8794100911882037682
+    second: matt-shaw-sheet01_30
+  - first:
+      213: 8158663938741575627
+    second: matt-shaw-sheet01_31
+  - first:
+      213: 331428014297492744
+    second: matt-shaw-sheet01_32
+  - first:
+      213: 2473334326173390648
+    second: matt-shaw-sheet01_33
+  - first:
+      213: -1151435411536241357
+    second: matt-shaw-sheet01_34
+  - first:
+      213: -2936583190842480248
+    second: matt-shaw-sheet01_35
+  - first:
+      213: 6004321990020813820
+    second: matt-shaw-sheet01_36
+  - first:
+      213: 5535781771443547286
+    second: matt-shaw-sheet01_37
+  - first:
+      213: 2611134970609009128
+    second: matt-shaw-sheet01_38
+  - first:
+      213: -3601523132281605912
+    second: matt-shaw-sheet01_39
+  - first:
+      213: 5219841456200414855
+    second: matt-shaw-sheet01_40
+  - first:
+      213: -1987966531602462756
+    second: matt-shaw-sheet01_41
+  - first:
+      213: 7610605086651239236
+    second: matt-shaw-sheet01_42
+  - first:
+      213: 9096181461252335258
+    second: matt-shaw-sheet01_43
+  - first:
+      213: -5686583032323040714
+    second: matt-shaw-sheet01_44
+  - first:
+      213: -1888939430816842076
+    second: matt-shaw-sheet01_45
+  - first:
+      213: -7951867376549201114
+    second: matt-shaw-sheet01_46
+  - first:
+      213: 3402562199713654219
+    second: matt-shaw-sheet01_47
+  - first:
+      213: -7927871038761982924
+    second: matt-shaw-sheet01_48
+  - first:
+      213: 6670486470823494162
+    second: matt-shaw-sheet01_49
+  - first:
+      213: -2112246542067171853
+    second: matt-shaw-sheet01_50
+  - first:
+      213: -3521835757559144026
+    second: matt-shaw-sheet01_51
+  - first:
+      213: 8489720869550605352
+    second: matt-shaw-sheet01_52
+  - first:
+      213: 741263389114080798
+    second: matt-shaw-sheet01_53
+  - first:
+      213: -6485777414048057340
+    second: matt-shaw-sheet01_54
+  - first:
+      213: -2484563416387211107
+    second: matt-shaw-sheet01_55
+  - first:
+      213: 6390399683522278001
+    second: matt-shaw-sheet01_56
+  - first:
+      213: -3767758240121008335
+    second: matt-shaw-sheet01_57
+  - first:
+      213: -4055249644302836223
+    second: matt-shaw-sheet01_58
+  - first:
+      213: 6046862437432370002
+    second: matt-shaw-sheet01_59
+  - first:
+      213: -6106643079206616618
+    second: matt-shaw-sheet01_60
+  - first:
+      213: -332919725927046778
+    second: matt-shaw-sheet01_61
+  - first:
+      213: 2959207637471593589
+    second: matt-shaw-sheet01_62
+  - first:
+      213: -5491597352870219245
+    second: matt-shaw-sheet01_63
+  - first:
+      213: -7072041513622390297
+    second: matt-shaw-sheet01_64
+  - first:
+      213: -6644547538382335639
+    second: matt-shaw-sheet01_65
+  - first:
+      213: -8585569466775294835
+    second: matt-shaw-sheet01_66
+  - first:
+      213: 8219489737467220039
+    second: matt-shaw-sheet01_67
+  - first:
+      213: 6729409790458781314
+    second: matt-shaw-sheet01_68
+  - first:
+      213: 8478397528738239854
+    second: matt-shaw-sheet01_69
+  - first:
+      213: 7141917027784744860
+    second: matt-shaw-sheet01_70
+  - first:
+      213: 5215669894230750606
+    second: matt-shaw-sheet01_71
+  - first:
+      213: -7900090743863382283
+    second: matt-shaw-sheet01_72
+  - first:
+      213: 1780051619418265385
+    second: matt-shaw-sheet01_73
+  - first:
+      213: -8184144567795523994
+    second: matt-shaw-sheet01_74
+  - first:
+      213: -4820141086937018326
+    second: matt-shaw-sheet01_75
+  - first:
+      213: 8563269270157045949
+    second: matt-shaw-sheet01_76
+  - first:
+      213: 6942186892027409462
+    second: matt-shaw-sheet01_77
+  - first:
+      213: -7455227792831570540
+    second: matt-shaw-sheet01_78
+  - first:
+      213: -4884363705520744071
+    second: matt-shaw-sheet01_79
+  - first:
+      213: -866123486322609421
+    second: matt-shaw-sheet01_80
+  - first:
+      213: -6174953876832751371
+    second: matt-shaw-sheet01_81
+  - first:
+      213: 5402571082332288054
+    second: matt-shaw-sheet01_82
+  - first:
+      213: 5826322245387520628
+    second: matt-shaw-sheet01_83
+  - first:
+      213: 135047750322335573
+    second: matt-shaw-sheet01_84
+  - first:
+      213: 1263368727439952285
+    second: matt-shaw-sheet01_85
+  - first:
+      213: 8776015301997362215
+    second: matt-shaw-sheet01_86
+  - first:
+      213: -1090470693259618997
+    second: matt-shaw-sheet01_87
+  - first:
+      213: -6598259765619689064
+    second: matt-shaw-sheet01_88
+  - first:
+      213: 4528050092884043611
+    second: matt-shaw-sheet01_89
+  - first:
+      213: -1343780525125450092
+    second: matt-shaw-sheet01_90
+  - first:
+      213: 5849179239634673740
+    second: matt-shaw-sheet01_91
+  - first:
+      213: 38337929982819266
+    second: matt-shaw-sheet01_92
+  - first:
+      213: -6915430408746472963
+    second: matt-shaw-sheet01_93
+  - first:
+      213: 7269288225489104258
+    second: matt-shaw-sheet01_94
+  - first:
+      213: 8533301614952614188
+    second: matt-shaw-sheet01_95
+  - first:
+      213: 1913168308997835109
+    second: matt-shaw-sheet01_96
+  - first:
+      213: -7716257757495005252
+    second: matt-shaw-sheet01_97
+  - first:
+      213: -424732749009338657
+    second: matt-shaw-sheet01_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017f1e169345fa570800000000000000
+      internalID: 8480089228794001168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b862c343a242d0800000000000000
+      internalID: -3295892465862002753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47dadb43262ea10800000000000000
+      internalID: 1937218768382817440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e643fa44e7cc42be0800000000000000
+      internalID: -1502851532944624530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac6c7f5eb80b64b0800000000000000
+      internalID: -5446249710635684694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bbd2646e743d040800000000000000
+      internalID: 4671156292858788684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1770
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eba9e900240ef30800000000000000
+      internalID: 4602751389601021565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78601b183b9c6860800000000000000
+      internalID: 7524559742703790207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b3b84c85454920800000000000000
+      internalID: 2973859597765556604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b91c09456cb740800000000000000
+      internalID: 5169117836724515127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb3929c8c80bf9c0800000000000000
+      internalID: -3892507794470257714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5de97cd499ffd90800000000000000
+      internalID: -7061757131353041449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635b7eb103fd2fd0800000000000000
+      internalID: -2364967040483372180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1620
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3935a3c2308ea83c0800000000000000
+      internalID: -4356414589202967661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc035eb9a3dd8c30800000000000000
+      internalID: 4363376339987926260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255041c8f73262c70800000000000000
+      internalID: 8945876740536010066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa1057d06afdc9f0800000000000000
+      internalID: -446425494203655439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_17
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c79a2d4717119be0800000000000000
+      internalID: -1472370214327117885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c4690e1fe3f6d10800000000000000
+      internalID: 2120983158090779789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed605be8036b9e30800000000000000
+      internalID: 4511308341700488687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975ac7d9c04d75d30800000000000000
+      internalID: 4420234709934318969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_21
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b9c93ae325fd420800000000000000
+      internalID: 2656932734158281614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a49a54098272dad0800000000000000
+      internalID: -2678952895522892640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_23
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c5f8174db7bb440800000000000000
+      internalID: 4952688367592496242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1470
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2801a41b93db291d0800000000000000
+      internalID: -3345403517697650558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b643df85bae34c0800000000000000
+      internalID: -4305815795026072713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0999256e710cfd0800000000000000
+      internalID: -2323831129727463187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f84d4e3d53ca060800000000000000
+      internalID: 6966001907828821809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578460002601fc60800000000000000
+      internalID: 7850062359998793565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa6bd5333ace8d0800000000000000
+      internalID: -2815696226002489422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_30
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46155450d315f580800000000000000
+      internalID: -8794100911882037682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf1b7630a5693170800000000000000
+      internalID: 8158663938741575627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_32
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da0d4e508799400800000000000000
+      internalID: 331428014297492744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8375852277c035220800000000000000
+      internalID: 2473334326173390648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_34
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d939108974500f0800000000000000
+      internalID: -1151435411536241357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_35
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1320
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889637885292f37d0800000000000000
+      internalID: -2936583190842480248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d144a903a35350800000000000000
+      internalID: 6004321990020813820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca9f8f03c03dc40800000000000000
+      internalID: 5535781771443547286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e100cfdb6d9c3420800000000000000
+      internalID: 2611134970609009128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b00afac1d40ec0800000000000000
+      internalID: -3601523132281605912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_40
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786fea4062a907840800000000000000
+      internalID: 5219841456200414855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_41
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74872e8f25964e0800000000000000
+      internalID: -1987966531602462756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_42
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bc0abe00d4e9960800000000000000
+      internalID: 7610605086651239236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96607a68d02c3e70800000000000000
+      internalID: 9096181461252335258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_44
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a1f946cd23511b0800000000000000
+      internalID: -5686583032323040714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_45
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1170
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aefeef789329c5e0800000000000000
+      internalID: -1888939430816842076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b74c770ca45a190800000000000000
+      internalID: -7951867376549201114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5aa180b44583f20800000000000000
+      internalID: 3402562199713654219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_48
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342c7d3b4b8af190800000000000000
+      internalID: -7927871038761982924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212cb7c7a14529c50800000000000000
+      internalID: 6670486470823494162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf90e06facfa2e0800000000000000
+      internalID: -2112246542067171853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_51
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a12b69b90def1fc0800000000000000
+      internalID: -3521835757559144026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_52
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1020
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c8cf762c81d570800000000000000
+      internalID: 8489720869550605352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e9521002f794a00800000000000000
+      internalID: 741263389114080798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408f9671ec3edf5a0800000000000000
+      internalID: -6485777414048057340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d903f409cbe058dd0800000000000000
+      internalID: -2484563416387211107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1723d1587a24fa850800000000000000
+      internalID: 6390399683522278001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4902d7db36bbc0800000000000000
+      internalID: -3767758240121008335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_58
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10edcc32febd8b7c0800000000000000
+      internalID: -4055249644302836223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2532fc46955cae350800000000000000
+      internalID: 6046862437432370002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_60
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1cacd4978d04ba0800000000000000
+      internalID: -6106643079206616618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_61
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e56de54b316bf0800000000000000
+      internalID: -332919725927046778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_62
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5740e10faa7311920800000000000000
+      internalID: 2959207637471593589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_63
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 870
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312f1b4ad4de9c3b0800000000000000
+      internalID: -5491597352870219245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9b8bf66bf0bdd90800000000000000
+      internalID: -7072041513622390297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9615689d733d9c3a0800000000000000
+      internalID: -6644547538382335639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c2b6aee0ee9d880800000000000000
+      internalID: -8585569466775294835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740d3b41e5e711270800000000000000
+      internalID: 8219489737467220039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_68
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed45cec8aa36d50800000000000000
+      internalID: 6729409790458781314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_69
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e651ef4c1a159a570800000000000000
+      internalID: 8478397528738239854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_70
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f5c6082bf2d1360800000000000000
+      internalID: 7141917027784744860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_71
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85b25f8228c16840800000000000000
+      internalID: 5215669894230750606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_72
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feebae235d3d5290800000000000000
+      internalID: -7900090743863382283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_73
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927d849448304b810800000000000000
+      internalID: 1780051619418265385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_74
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 720
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eda1680e31c6e80800000000000000
+      internalID: -8184144567795523994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a209ad9383b6b1db0800000000000000
+      internalID: -4820141086937018326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_76
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0bab3f708d6d670800000000000000
+      internalID: 8563269270157045949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_77
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634baaf623a975060800000000000000
+      internalID: 6942186892027409462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_78
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d97a862d5b98890800000000000000
+      internalID: -7455227792831570540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_79
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97910aa9611473cb0800000000000000
+      internalID: -4884363705520744071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_80
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f23e123749eaf3f0800000000000000
+      internalID: -866123486322609421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_81
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f076f25a282e4aa0800000000000000
+      internalID: -6174953876832751371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_82
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634b63c76c9c9fa40800000000000000
+      internalID: 5402571082332288054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_83
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a874786314bd050800000000000000
+      internalID: 5826322245387520628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_84
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fada1a639cfd100800000000000000
+      internalID: 135047750322335573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_85
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 570
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99456bf923688110800000000000000
+      internalID: 1263368727439952285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cf1fa7b6baac970800000000000000
+      internalID: 8776015301997362215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_87
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45594a9eaeddd0f0800000000000000
+      internalID: -1090470693259618997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_88
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8997c76c3b54e64a0800000000000000
+      internalID: -6598259765619689064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_89
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57278f919dd6de30800000000000000
+      internalID: 4528050092884043611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_90
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4964fc76bbee95de0800000000000000
+      internalID: -1343780525125450092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_91
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40a30637857c2150800000000000000
+      internalID: 5849179239634673740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_92
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 420
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbbc0ae424388000800000000000000
+      internalID: 38337929982819266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df96bb9cea47700a0800000000000000
+      internalID: -6915430408746472963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_94
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 270
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d25327023b1e460800000000000000
+      internalID: 7269288225489104258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_95
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 270
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2984808b906c6670800000000000000
+      internalID: 8533301614952614188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569c95dc070fc8a10800000000000000
+      internalID: 1913168308997835109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_97
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf6829b3785ae490800000000000000
+      internalID: -7716257757495005252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matt-shaw-sheet01_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdeb2daa0db0b1af0800000000000000
+      internalID: -424732749009338657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b00eca537b253e9408adbb1ab67533ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,10 +22,10 @@ public class karencont : MonoBehaviour
     int f = 0;
     //*
 
-    public GameObject thoughtui , resultui , numberui , finalscore , secscore;
+    public GameObject thoughtui , resultui , numberui , finalscore ;
     bool jumpguid = true , sprintguid = true , sitguid = true , walkguid = true ;
     bool finished = false;
-    public GameObject[] guides;
+    
     GameObject arrow;
     GameObject eggy , fally , obsjump;
     int i = 0 , j = 0 , k = 0 , m = 5;
@@ -33,9 +33,10 @@ public class karencont : MonoBehaviour
     public float animspeedslow , animspeedfast , cameraspeedslow , cameraspeedfast;
     public Animator RedScreen;
     public GameObject ScoreBack;
+    public canvascont cny;
     
     // Start is called before the first frame update
-    void awake(){
+    void Awake(){
        
         stopEve = true;
         begin = false;
@@ -80,7 +81,7 @@ public class karencont : MonoBehaviour
             lion.SetTrigger("jump");
             Invoke("nowstart" , 0.34f);
             canvascont.jump = false;
-            Invoke("enablethen" , 1f);
+          //  Invoke("enablethen" , 1f);
         }
         if(canvascont.sitdown == true){
             canvascont.SitOb = false;
@@ -90,7 +91,7 @@ public class karencont : MonoBehaviour
             lion.SetBool("run" , false);
             lion.SetBool("crouch" , true);
             Invoke("throwarrow" , 0.5f);
-            Invoke("enablethen" , 1f);
+          //  Invoke("enablethen" , 1f);
             
             
         }
@@ -111,7 +112,7 @@ public class karencont : MonoBehaviour
             lion.SetBool("walk" , true);
             Cameramover.speed2 = 4f;
             canvascont.walk = false;
-            Invoke("enablethen" , 1f);
+          //  Invoke("enablethen" , 1f);
         }
         if(lastpass == true){
             lion.SetBool("walk" , false);
@@ -130,7 +131,7 @@ public class karencont : MonoBehaviour
             Cameramover.speed2 = 10f;
             calllet = true;
             canvascont.sprint = false;
-            Invoke("enablethen" , 1f);
+         //   Invoke("enablethen" , 1f);
         }
         if(calllet == true){
             Invoke("fallfinished" , 1.5f);
@@ -150,11 +151,12 @@ public class karencont : MonoBehaviour
             Cameramover.camstop = false;
             lion.SetBool("run" , false);
             AnimContAfterHit();
-            lion.SetTrigger("hit");
-            Invoke("nowstart" , 0.5f);
-            Invoke("camstart" , 0.5f);
+            AnimContAfterHitwrong();
+          //  lion.SetTrigger("hit");
+          //  Invoke("nowstart" , 0.5f);
+           // Invoke("camstart" , 0.5f);
             canvascont.hitted = false;
-            Invoke("enablethen" , 1f);
+          //  Invoke("enablethen" , 1f);
         }
         if(hitObstacles.charhitted == true){
             RedScreen.SetTrigger("red");
@@ -177,12 +179,14 @@ public class karencont : MonoBehaviour
             hitObstacles.charhitted = false;
         }
         if(canvascont.diedd == true){
+            cny.sliderr.SetActive(false);
+            cny.menuicon.SetActive(false);
             theme.Stop();
             disobscatcher = false;
             Cameramover.globalblurrate = 0f;
             stopEve = false;
             Cameramover.camstop = false;
-            secscore.SetActive(false);
+        //    secscore.SetActive(false);
             ScoreBack.SetActive(false);
             lion.SetBool("run" , false);
             lion.SetBool("die" , true);
@@ -193,8 +197,10 @@ public class karencont : MonoBehaviour
            
         }
         if(finished == true){
+            cny.sliderr.SetActive(false);
+            cny.menuicon.SetActive(false);
             theme.Stop();
-            secscore.SetActive(false);
+         //   secscore.SetActive(false);
             Cameramover.camstop = false;
             lion.SetBool("run" , false);
             ScoreBack.SetActive(false);
@@ -242,6 +248,45 @@ public class karencont : MonoBehaviour
         else if(canvascont.WalkOb == true){
             canvascont.WalkOb = false;
         }
+    }
+    void AnimContAfterHitwrong(){
+        if(canvascont.jumpwrong == true){
+            jumper.SetTrigger("jump");
+            lion.SetTrigger("jump");
+            Invoke("nowstart" , 1f);
+            Invoke("camstart" , 1f);
+            canvascont.jumpwrong = false;
+        }
+        else if(canvascont.walkwrong == true){
+            lion.SetBool("walk" , true);
+            Invoke("walkfalser" , 1f);
+            Invoke("nowstart" , 1.1f);
+            Invoke("camstart" , 1.1f);
+            canvascont.walkwrong = false;
+        }
+         else if(canvascont.sitwrong == true){
+             lion.SetBool("crouch" , true);
+             Invoke("crouchfalser" , 1f);
+             Invoke("nowstart" , 1.1f);
+             Invoke("camstart" , 1.1f);
+            canvascont.sitwrong = false;
+        }
+         else if(canvascont.runwrong == true){
+             lion.SetBool("sprint" , true);
+             Invoke("runfalser" , 1f);
+             Invoke("nowstart" , 1.1f);
+             Invoke("camstart" , 1.1f);
+            canvascont.runwrong = false;
+        }
+    }
+    void crouchfalser(){
+        lion.SetBool("crouch" , false);
+    }
+    void walkfalser(){
+        lion.SetBool("walk" , false);
+    }
+    void runfalser(){
+        lion.SetBool("sprint" , false);
     }
    
     void disableObsCores(){
@@ -292,6 +337,8 @@ public class karencont : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if(other.gameObject.tag == "obstaclej"){
+            canvascont.answer = "jump";
+            other.gameObject.tag = "nottagged";
             obsjump = other.gameObject;
             Cameramover.globalblurrate = 4f;
             stopEve = true;
@@ -305,6 +352,8 @@ public class karencont : MonoBehaviour
             print(canvascont.jumphit);
         }
         else if(other.gameObject.tag == "arrowup"){
+            canvascont.answer = "sitdown";
+            other.gameObject.tag = "sittagged";
             canvascont.SitOb = true;
              Cameramover.globalblurrate = 4f;
             stopEve = true;
@@ -318,6 +367,8 @@ public class karencont : MonoBehaviour
             print(canvascont.sitdownhit);
         }
         else if(other.gameObject.tag == "firstegg"){
+            canvascont.answer = "walk";
+            other.gameObject.tag = "nottagged";
             canvascont.WalkOb = true;
              Cameramover.globalblurrate = 4f;
             eggy = other.gameObject;
@@ -334,6 +385,8 @@ public class karencont : MonoBehaviour
             lastpass = true;
         }
         else if(other.gameObject.tag == "firstfall"){
+            canvascont.answer = "sprint";
+            other.gameObject.tag = "nottagged";
             canvascont.RunOb = true;
             print("fall" + canvascont.RunOb);
              Cameramover.globalblurrate = 4f;

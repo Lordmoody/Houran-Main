@@ -1,0 +1,42 @@
+{
+    "words":[
+        {
+        "en": "went",
+        "per": "He ------- to the Jungle.",
+        "cor": "He went to the Jungle."
+        },
+        {
+        "en": "found",
+        "per": "He ------- a Stone.",
+        "cor": "He found a Stone."
+        },
+        {
+        "en": "Scared",
+        "per": "He was so --------",
+        "cor": "He was so scared."
+        },
+        {
+        "en": "Down",
+        "per": "The sun was going ------",
+        "cor": "The sun was going down."
+        }
+    ],
+    "winsent":[
+        {
+            "sent": "Try Better Next Time",
+            "psent": "دفعه بعد بهتر تلاش کن"
+        },
+        {
+            "sent": "You did good",
+            "psent": "کارت خوب بود"
+        },
+        {
+            "sent": "Wow!You were Perfect",
+            "psent": "کارت عالی بود"
+        },
+        {
+            "sent": "You let the Darkness in",
+            "psent": "تو باعث ورود تاریکی شدی"
+        }
+    ]
+}

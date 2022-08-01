@@ -1,0 +1,66 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ItemCollect : MonoBehaviour
+{
+    public TreeSpeechController treeSpeechController;
+    public ItemController itemController;
+    public LangController lang;
+    public int arrayNum;
+    public string ThisItemName;
+    public int itemNum;
+    public ParticleSystem PickUp;
+    public AudioSource pickupSound; 
+    public Button btn;  
+    public Text wordPopop , transPopop;
+    public Animator Canvanim;
+    void Start()
+    {
+        
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+        if(other.gameObject.tag == "pplayer"){
+            CheckForGuide.ItemTillNow += 1;
+            Debug.Log(CheckForGuide.ItemTillNow);
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            Canvanim.SetTrigger("show");
+            if(LangController.Lang == "Eng"){
+                //treeSpeechController.StartSpeaking(lang.myPlayerList.player[itemNum].name);
+                
+                wordPopop.text = lang.myPlayerList.player[itemNum].name;
+            }
+            else if(LangController.Lang == "Fr"){
+                //treeSpeechController.StartSpeaking(lang.myPlayerList.player[itemNum].fr);
+                
+                wordPopop.text = lang.myPlayerList.player[itemNum].fr;
+            }
+            transPopop.text = lang.myPlayerList.player[itemNum].trans;
+            Invoke("ReadWord" , 1.05f);
+           // Canvanim.SetTrigger("pop");
+           
+           // itemController.itemsname = new string[itemController.itemsname.Length + 1];
+            itemController.itemsname[arrayNum] = ThisItemName;
+            btn.interactable = true;
+            PickUp.Play();
+            pickupSound.Play();
+            Invoke("DisActiveItem" , 2f);
+        }
+    }
+
+    void ReadWord(){
+        if(LangController.Lang == "Eng"){
+            treeSpeechController.StartSpeaking(lang.myPlayerList.player[itemNum].name);
+        }
+        else if(LangController.Lang == "Fr"){
+            treeSpeechController.StartSpeaking(lang.myPlayerList.player[itemNum].fr);
+        }
+        
+    }
+    void DisActiveItem(){
+        this.gameObject.SetActive(false);
+    }
+}

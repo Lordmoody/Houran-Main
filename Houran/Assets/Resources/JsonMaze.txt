@@ -1,0 +1,20 @@
+{
+    "player":[
+       {
+        "name": "يه کليد آبي نيازه، کليد آبي رو بزار اينجا ",
+        "sent": "A Blue Key Is needed, Drag And Drop The Blue Key Here."
+        },
+        {
+        "name": "يه کليد قرمز نيازه، کليد آبي رو بزار اينجا ",
+        "sent": "A Red Key Is needed, Drag And Drop The Red Key Here."
+        },
+        {
+        "name": "يه کليد سبز نيازه، کليد آبي رو بزار اينجا ",
+        "sent": "A Green Key Is needed, Drag And Drop The Green Key Here."
+        },
+        {
+        "name": "يه کليد زرد نيازه، کليد آبي رو بزار اينجا ",
+        "sent": "A Yellow Key Is needed, Drag And Drop The Yellow Key Here."
+        }
+    ]
+}

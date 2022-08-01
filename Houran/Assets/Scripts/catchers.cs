@@ -18,7 +18,7 @@ public class catchers : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(other.gameObject.tag == "arrowup"){
+        if(other.gameObject.tag == "sittagged"){
             canvascont.sitdown = false;
             passed = true;
         }
