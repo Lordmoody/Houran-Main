@@ -16,6 +16,9 @@ public class ItemCollect : MonoBehaviour
     public Button btn;  
     public Text wordPopop , transPopop;
     public Animator Canvanim;
+    public Image WordImage;
+    public Sprite WordSprite;
+    public ControlSlowMo controlSlowMo;
     void Start()
     {
         
@@ -28,6 +31,7 @@ public class ItemCollect : MonoBehaviour
             this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
             this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
             Canvanim.SetTrigger("show");
+            controlSlowMo.DoSlow();
             if(LangController.Lang == "Eng"){
                 //treeSpeechController.StartSpeaking(lang.myPlayerList.player[itemNum].name);
                 
@@ -38,6 +42,7 @@ public class ItemCollect : MonoBehaviour
                 
                 wordPopop.text = lang.myPlayerList.player[itemNum].fr;
             }
+            WordImage.sprite = WordSprite;
             transPopop.text = lang.myPlayerList.player[itemNum].trans;
             Invoke("ReadWord" , 1.05f);
            // Canvanim.SetTrigger("pop");

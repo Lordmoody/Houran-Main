@@ -174,7 +174,7 @@ MonoBehaviour:
   missionNumb: 2
   Black: {fileID: 6108547749883771891}
   TeleAnim: {fileID: 6108547749018563536}
-  light: {fileID: 4052723310006821153}
+  lightt: {fileID: 4052723310006821153}
 --- !u!95 &6108547749018563536
 Animator:
   serializedVersion: 3
