@@ -6078,6 +6078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyParent: {fileID: 8921992327700584033}
+  MyRoot: {fileID: 4761612376990179129}
 --- !u!1 &1042850414073663633
 GameObject:
   m_ObjectHideFlags: 0
@@ -7153,20 +7154,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.458
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
+  m_Intensity: 0.6
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: ff38e528
   m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
+  m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
+  m_PointLightInnerRadius: 2.22
   m_PointLightOuterRadius: 3.75
   m_PointLightDistance: 3
   m_PointLightQuality: 1
@@ -18116,7 +18117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6611086537954456710
 Transform:
   m_ObjectHideFlags: 0
@@ -18515,7 +18516,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8921992327700584033}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -18584,7 +18585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 3318423110543387519}
   animator: {fileID: 8388633626728919340}
-  runSpeed: 40
+  runSpeed: 60
   horizontalMove: 0
   runParticle: {fileID: 6476477915081172640}
   JumpParticle: {fileID: 583224583255952654}
@@ -18592,7 +18593,6 @@ MonoBehaviour:
   jumps: {fileID: 5644126581449630635}
   crouchMove: {fileID: 262815133}
   pushingSound: {fileID: 0}
-  UnityControl: 0
   IsPushing: 0
   BounceSound: {fileID: 0}
   healthInstance: {fileID: 213784922}
@@ -18658,7 +18658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07913b3c9516c1498b27f53c6011fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
+  m_JumpForce: 900
   m_CrouchSpeed: 0.36
   OriginalCrouchSpeed: 0
   m_MovementSmoothing: 0.05
@@ -18734,6 +18734,20 @@ MonoBehaviour:
   GotHitS: {fileID: 9915354}
   shakeHealth: {fileID: 11400000, guid: 4a23a06e81ea03241a7d2cfbf5ace259, type: 2}
   GuideBirth: {fileID: 5477837668829366559}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: Death
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!70 &3977856622969738437
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19125,6 +19139,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6611086537954456710}
     m_Modifications:
+    - target: {fileID: 6410919221412011815, guid: 665cecd4dfc57994ab56c00c82ab2943,
+        type: 3}
+      propertyPath: m_Pitch
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6410919221691827156, guid: 665cecd4dfc57994ab56c00c82ab2943,
         type: 3}
       propertyPath: m_Name
@@ -19848,7 +19867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: playOnAwake
@@ -19860,11 +19879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -19884,10 +19903,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.minScalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
@@ -19895,20 +19918,40 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_SortingOrder
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_SortingOrder
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
       objectReference: {fileID: 0}
     - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size

@@ -91,7 +91,10 @@ public class TaskUIManager : MonoBehaviour
 
 
     ///end
-    
+    //ForInof
+    public Text[] InfoTxts;
+    SideCharacterController sideinfo;
+///end
     // Start is called before the first frame update
     void Start()
     {
@@ -152,11 +155,18 @@ public class TaskUIManager : MonoBehaviour
     public void OpenInfo(){
         InfoButton.SetActive(false);
         InfoPanel.SetActive(true);
+        sideinfo = EnteredChar.GetComponent<SideCharacterController>();
         if(LangController.Lang == "Eng"){
-            InfoText.text = EnteredChar.GetComponent<SideCharacterController>().ENGwords;
+           // InfoText.text = EnteredChar.GetComponent<SideCharacterController>().ENGwords;
+              for(int i = 0; i < InfoTxts.Length ; i++){
+                InfoTxts[i].text = sideinfo.myWordList.Words[i].name;
+              }
         }
         else if(LangController.Lang == "Fr"){
-            InfoText.text = EnteredChar.GetComponent<SideCharacterController>().FRwords;
+           // InfoText.text = EnteredChar.GetComponent<SideCharacterController>().FRwords;
+            for(int i = 0; i < InfoTxts.Length ; i++){
+                InfoTxts[i].text = sideinfo.myWordList.Words[i].fr;
+              }
         }
         
     }

@@ -8148,7 +8148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 146561352}
   animator: {fileID: 4927696422064958389}
-  runSpeed: 40
+  runSpeed: 60
   horizontalMove: 0
   runParticle: {fileID: 2488695362554088978}
   JumpParticle: {fileID: 8646461435306425062}
@@ -8156,7 +8156,6 @@ MonoBehaviour:
   jumps: {fileID: 7357465851605501593}
   crouchMove: {fileID: 78439223948075230}
   pushingSound: {fileID: 0}
-  UnityControl: 1
   IsPushing: 0
   BounceSound: {fileID: 0}
   healthInstance: {fileID: 6442365014329228316}
@@ -19695,6 +19694,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6410919221412011815, guid: 665cecd4dfc57994ab56c00c82ab2943,
+        type: 3}
+      propertyPath: m_Pitch
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6410919221691827156, guid: 665cecd4dfc57994ab56c00c82ab2943,
         type: 3}
       propertyPath: m_Name
@@ -20168,7 +20172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: playOnAwake
@@ -20180,11 +20184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 19800002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -20204,10 +20208,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 2.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: InitialModule.startSize.minScalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
@@ -20215,20 +20223,40 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_SortingOrder
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_SortingOrder
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092550255
       objectReference: {fileID: 0}
     - target: {fileID: 19900004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
       propertyPath: m_Materials.Array.size

@@ -34,7 +34,7 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if(ControlGuide.CurrentGuide == "Moveguide"){
             ControlGuide.CurrentGuide = "None";
-            controlGuide.CancelAnim("Moveguide" , "move");
+            controlGuide.ForCancel();
         }
         Debug.Log("Press position + " + eventData.pressPosition);
         Debug.Log("End position + " + eventData.position);

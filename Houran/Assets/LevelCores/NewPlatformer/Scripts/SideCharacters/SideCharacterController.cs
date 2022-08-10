@@ -56,7 +56,7 @@ public class SideCharacterController : MonoBehaviour
          //  var dlpath = new DownloadHandlerFile(gamePath);
          textJsonWords = Resources.Load<TextAsset>(ThiswordsJson);
          myWordList = JsonUtility.FromJson<WordList>(textJsonWords.text);
-         int n = 0;
+        /* int n = 0;
          for(int w = 0 ; w < myWordList.Words.Length ; w++){
             if(n < 3){
                 ENGwords = ENGwords + "   " + myWordList.Words[w].name;
@@ -69,7 +69,7 @@ public class SideCharacterController : MonoBehaviour
                 n = 0;
             }
              
-         }
+         }*/
     }
     
     void OnTriggerEnter2D(Collider2D other){

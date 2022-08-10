@@ -18,7 +18,7 @@ public class NewPlayerMovementP : MonoBehaviour
     bool running = false , falling = false;
     public static float HorizValue = 0f;
     public static bool JumpValue = false , CrouchValue = false  , PlayerGrounded;
-    public bool UnityControl = false;
+    
     [HideInInspector] public bool IsPushing = false;
     public static bool BounceLanded;
     public AudioSource BounceSound;
@@ -50,12 +50,17 @@ public class NewPlayerMovementP : MonoBehaviour
     {
         if(PlayerHealth.playerDied == false){
             if(CombatScript.Spelling == false){  
-        if(UnityControl == true){
-            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        } 
-        else{
-            horizontalMove = HorizValue * runSpeed;
-        }
+                #if UNITY_EDITOR
+                    horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+                #elif UNITY_ANDROID
+                    horizontalMove = HorizValue * runSpeed;
+                #endif
+               /* if(UnityControl == true){
+                    horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+                } 
+                else{
+                    horizontalMove = HorizValue * runSpeed;
+                }*/
        
         
         animator.SetFloat("Speed" , Mathf.Abs(horizontalMove));

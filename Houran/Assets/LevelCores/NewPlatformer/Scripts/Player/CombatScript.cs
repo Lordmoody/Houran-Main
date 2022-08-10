@@ -91,7 +91,7 @@ public class CombatScript : MonoBehaviour
                         else if(FingerMoved == false){
                             if(ControlGuide.CurrentGuide == "HitGuide"){
                                 ControlGuide.CurrentGuide = "None";
-                                controlGuide.CancelAnim("HitGuide" , "hit");
+                                controlGuide.ForCancel();
                                 Destroy(HitCheck);
                             }
                             i = 0;
@@ -187,7 +187,7 @@ public class CombatScript : MonoBehaviour
             else if(FingerMoved == false){
                 if(ControlGuide.CurrentGuide == "AbilityGuide"){
                     ControlGuide.CurrentGuide = "None";
-                    controlGuide.CancelAnim("abilityGuide" , "ability");
+                    controlGuide.ForCancel();
                     Destroy(abilityCheck);
                 }
                 AbilityAll();
@@ -204,7 +204,7 @@ public class CombatScript : MonoBehaviour
                         i = 0;
                         if(ControlGuide.CurrentGuide == "HitGuide"){
                                 ControlGuide.CurrentGuide = "None";
-                                controlGuide.CancelAnim("HitGuide" , "hit");
+                                controlGuide.ForCancel();
                                 Destroy(HitCheck);
                             }
                         Attack(animNums[i]);
@@ -222,7 +222,7 @@ public class CombatScript : MonoBehaviour
                     Debug.Log("hitstarted");
                     if(ControlGuide.CurrentGuide == "HitGuide"){
                                 ControlGuide.CurrentGuide = "None";
-                                controlGuide.CancelAnim("HitGuide" , "hit");
+                                controlGuide.ForCancel();
                                 Destroy(HitCheck);
                             }
                     i = 0;

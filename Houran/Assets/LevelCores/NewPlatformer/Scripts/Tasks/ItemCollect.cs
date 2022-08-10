@@ -44,7 +44,7 @@ public class ItemCollect : MonoBehaviour
             }
             WordImage.sprite = WordSprite;
             transPopop.text = lang.myPlayerList.player[itemNum].trans;
-            Invoke("ReadWord" , 1.05f);
+            ReadWord();
            // Canvanim.SetTrigger("pop");
            
            // itemController.itemsname = new string[itemController.itemsname.Length + 1];

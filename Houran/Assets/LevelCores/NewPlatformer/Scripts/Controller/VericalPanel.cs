@@ -35,12 +35,12 @@ public class VericalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if(ControlGuide.CurrentGuide == "JumpGuide"){
             ControlGuide.CurrentGuide = "None";
-            controlGuide.CancelAnim("JumpGuide" , "jump");
+            controlGuide.ForCancel();
             Destroy(CheckJump);
         }
         if(ControlGuide.CurrentGuide == "SitGuide"){
             ControlGuide.CurrentGuide = "None";
-            controlGuide.CancelAnim("SitGuide" , "sit");
+            controlGuide.ForCancel();
             Destroy(CheckSit);
         }
         Debug.Log("Press position + " + eventData.pressPosition);
