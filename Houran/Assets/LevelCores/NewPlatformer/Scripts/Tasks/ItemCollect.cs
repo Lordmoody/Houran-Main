@@ -10,7 +10,7 @@ public class ItemCollect : MonoBehaviour
     public LangController lang;
     public int arrayNum;
     public string ThisItemName;
-    public int itemNum;
+    public int itemNum , NumInThis;
     public ParticleSystem PickUp;
     public AudioSource pickupSound; 
     public Button btn;  
@@ -19,6 +19,7 @@ public class ItemCollect : MonoBehaviour
     public Image WordImage;
     public Sprite WordSprite;
     public ControlSlowMo controlSlowMo;
+    public TaskUIManager taskUIManager;
     void Start()
     {
         
@@ -26,6 +27,7 @@ public class ItemCollect : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "pplayer"){
+            taskUIManager.Ticks[NumInThis].SetActive(true);
             CheckForGuide.ItemTillNow += 1;
             Debug.Log(CheckForGuide.ItemTillNow);
             this.gameObject.GetComponent<SpriteRenderer>().enabled = false;

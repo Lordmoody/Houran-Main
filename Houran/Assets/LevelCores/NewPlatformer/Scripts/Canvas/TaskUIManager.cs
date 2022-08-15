@@ -93,6 +93,7 @@ public class TaskUIManager : MonoBehaviour
     ///end
     //ForInof
     public Text[] InfoTxts;
+    public GameObject[] Ticks;
     SideCharacterController sideinfo;
 ///end
     // Start is called before the first frame update

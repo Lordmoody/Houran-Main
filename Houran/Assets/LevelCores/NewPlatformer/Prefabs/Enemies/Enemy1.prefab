@@ -14678,7 +14678,7 @@ SortingGroup:
   m_GameObject: {fileID: 4133833629541105246}
   m_Enabled: 1
   m_SortingLayerID: 686110975
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 6
 --- !u!95 &6656095255956822266
 Animator:
@@ -19331,6 +19331,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 14.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2398774103305425205, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3540112949692916701, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -19366,10 +19371,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: NozhaTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4914023027317816462, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -19381,10 +19396,20 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 686110975
       objectReference: {fileID: 0}
+    - target: {fileID: 6731350558738084697, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -19395,11 +19420,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 686110975
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832975677337763207, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -19547,6 +19582,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExclamationMark
       objectReference: {fileID: 0}
+    - target: {fileID: 2915286262898494725, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915286262898494727, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2915286262913576389, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19607,6 +19652,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
       propertyPath: m_Name
       value: CFX4 Disruptive Force (1)
@@ -19614,6 +19663,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
       propertyPath: m_Layer
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
       propertyPath: m_RootOrder

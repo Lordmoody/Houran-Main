@@ -18,6 +18,7 @@ public class VictoryCheck : MonoBehaviour
     public SideCharacterController sideCharacter;
     public UnityEvent VictoryEvent , StartEvent;
     public GameObject VertCont , HorzCont;
+    public TaskUIManager taskUIManager;
 
     GameObject ToDestroy;
     // Start is called before the first frame update
@@ -70,6 +71,9 @@ public class VictoryCheck : MonoBehaviour
              VictoryEvent.Invoke();
             foreach(GameObject btn in itemBtns){
                 btn.SetActive(false);
+            }
+            foreach(GameObject tick in taskUIManager.Ticks){
+                tick.SetActive(false);
             }
         }
     }

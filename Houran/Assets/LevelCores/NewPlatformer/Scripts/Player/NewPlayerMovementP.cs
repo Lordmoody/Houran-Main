@@ -84,20 +84,10 @@ public class NewPlayerMovementP : MonoBehaviour
             animator.SetBool("pushing" , false);
         }
         
-        #if UNITY_EDITOR_WIN
-        /*if(Input.GetButtonDown("Jump")){
-            jump = true;
-            animator.SetBool("IsJumping" , true);
-            jumped = true;
+        
+        if(PlayerGrounded == false){
+            runs.Stop();
         }
-        if(Input.GetKeyDown(KeyCode.S)){
-            crouch = true;
-        }
-        else if(Input.GetKeyUp(KeyCode.S)){
-            crouch = false;
-        }*/
-        #endif
-
 
         if(CrouchValue == true){
             crouch = true;

@@ -129,6 +129,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Web
+    uniqueID: 3136022887
+    locked: 0
   - name: Player
     uniqueID: 686110975
     locked: 0

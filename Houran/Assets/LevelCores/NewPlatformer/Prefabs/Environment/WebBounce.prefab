@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 5404933113976160734}
   - component: {fileID: 5404933113976160720}
   - component: {fileID: 5403011559792083392}
-  - component: {fileID: 3310525153387652724}
+  - component: {fileID: 6346931037375398570}
   m_Layer: 10
   m_Name: WebBounce
   m_TagString: Untagged
@@ -101,7 +101,7 @@ Transform:
   m_GameObject: {fileID: 5404933113976160733}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -15.05, y: -1.53, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 5404933113579779628}
   - {fileID: 7628810159227847697}
@@ -144,10 +144,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1158944409
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 8a054d1ecee1b154eab5cf67c3d481e6, type: 3}
+  m_Sprite: {fileID: -7707684916643995919, guid: 4cf0dabdfc1cdda46ae6f04c00cbdb28,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -175,7 +176,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8457031, y: 3.533624}
+    oldSize: {x: 1.8457031, y: 3.537531}
     newSize: {x: 1.8457031, y: 3.533624}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -217,7 +218,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 35
---- !u!114 &3310525153387652724
+  OnBounce:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: DestroyThis
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6346931037375398570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,9 +248,9 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 14.93
+  m_Intensity: 15
   m_LightVolumeOpacity: 0.165
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 67e9ebba
   m_LightCookieSprite: {fileID: 21300004, guid: 8a054d1ecee1b154eab5cf67c3d481e6,
     type: 3}
   m_UseNormalMap: 1

@@ -465,7 +465,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 686110975
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 41ee8205a421b1643824c4bd4c9b12b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1209,6 +1209,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 7.338064
       objectReference: {fileID: 0}
+    - target: {fileID: 2398774103305425205, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3540112949692916701, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1244,6 +1249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NozhaTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4914023027317816462, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_Color.a
@@ -1252,7 +1262,7 @@ PrefabInstance:
     - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6454714702195023746, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -1264,6 +1274,11 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 686110975
       objectReference: {fileID: 0}
+    - target: {fileID: 6731350558738084697, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_Color.a
@@ -1272,7 +1287,7 @@ PrefabInstance:
     - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7008054614420509920, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -1284,6 +1299,11 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 686110975
       objectReference: {fileID: 0}
+    - target: {fileID: 7832975677337763207, guid: 0aff24cf462db3147aff03d1e802b326,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_Color.a
@@ -1292,7 +1312,7 @@ PrefabInstance:
     - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8582678615939096533, guid: 0aff24cf462db3147aff03d1e802b326,
         type: 3}
@@ -1455,10 +1475,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 2915286262898494725, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2915286262898494727, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
         type: 3}
       propertyPath: m_Layer
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915286262898494727, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2915286262913576389, guid: 722ad15235e7a2f4ba35283e3a3e4e2e,
         type: 3}
