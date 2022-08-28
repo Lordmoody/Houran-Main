@@ -10,7 +10,9 @@ public class AcidDrop : MonoBehaviour
     [HideInInspector] public Vector3 SideMove;
     [HideInInspector] public float speed;
 
-
+    void Start(){
+        Destroy(this.gameObject , 5f);
+    }
     void Update(){
         if(move == true){
             this.gameObject.transform.position += SideMove * Time.deltaTime * speed; 

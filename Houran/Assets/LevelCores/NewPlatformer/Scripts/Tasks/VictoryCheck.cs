@@ -68,7 +68,11 @@ public class VictoryCheck : MonoBehaviour
             HubPanel.SetActive(false);
             HorzCont.SetActive(true);
             VertCont.SetActive(true);
-             VictoryEvent.Invoke();
+            VictoryEvent.Invoke();
+            if(GameObject.FindGameObjectWithTag("VictoryThing") != null){
+                GameObject.FindGameObjectWithTag("VictoryThing").GetComponent<DoThatVictoryThing>().DoAfterVictory();
+            }
+            
             foreach(GameObject btn in itemBtns){
                 btn.SetActive(false);
             }

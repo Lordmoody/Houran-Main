@@ -8,7 +8,7 @@ public class LevelEnvController : MonoBehaviour
     public static int LevelNumber = 1;
     private int CurrentLevel = 1;
     public GameObject[] Envss;
-    public Transform LevelPos; 
+    public Transform[] LevelPos; 
     public Transform[] forwardPos;
     public Transform[] backwardPos;
     public Transform EnvParent;
@@ -39,7 +39,7 @@ public class LevelEnvController : MonoBehaviour
     public void StartGenerate(){
         //if(SaveDatasPlayer.notFound == false){
             CurrentLevel = LevelNumber;
-            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos.position , Quaternion.identity);
+            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos[LevelNumber - 1].position , Quaternion.identity);
             GeneratedLevel.transform.SetParent(EnvParent);
             script.CurrentCharacter.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             Currentlevelenv = GeneratedLevel;
@@ -82,7 +82,7 @@ public class LevelEnvController : MonoBehaviour
     void ForForward(){
             
             MissionHolders[LevelNumber].SetActive(true);
-            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos.position , Quaternion.identity);
+            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos[LevelNumber - 1].position , Quaternion.identity);
             GeneratedLevel.transform.SetParent(EnvParent);
             script.CurrentCharacter.transform.position = forwardPos[LevelNumber - 1 ].position;
             Currentlevelenv = GeneratedLevel;
@@ -92,7 +92,7 @@ public class LevelEnvController : MonoBehaviour
     }
 
     void ForBackward(){
-            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos.position , Quaternion.identity);
+            GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos[LevelNumber - 1].position , Quaternion.identity);
             GeneratedLevel.transform.SetParent(EnvParent);
             script.CurrentCharacter.transform.position = backwardPos[LevelNumber - 1 ].position;
             Currentlevelenv = GeneratedLevel;

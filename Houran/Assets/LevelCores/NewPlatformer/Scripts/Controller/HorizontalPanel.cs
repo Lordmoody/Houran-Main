@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     public ControlGuide controlGuide;
    #region FIELDS
     private Grid grid;
 
+    public Image Panel;
     private enum DraggedDirection
     {
        
@@ -27,11 +29,13 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
        // GetDragDirection(dragVectorDirection);
        NewPlayerMovementP.HorizValue = 0;
        CombatScript.FingerMoved = true;
+       Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0);
     }
 
     //It must be implemented otherwise IEndDragHandler won't work 
     public void OnDrag(PointerEventData eventData)
     {
+
         if(ControlGuide.CurrentGuide == "Moveguide"){
             ControlGuide.CurrentGuide = "None";
             controlGuide.ForCancel();
@@ -41,7 +45,7 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
         Vector3 dragVectorDirection = (eventData.position - eventData.pressPosition).normalized;
         Debug.Log("norm + " + dragVectorDirection);
         GetDragDirection(dragVectorDirection);
-         
+        Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0.3f);
         
     }
 

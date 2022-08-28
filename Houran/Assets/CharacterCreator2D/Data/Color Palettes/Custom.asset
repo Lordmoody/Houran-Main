@@ -15,3 +15,4 @@ MonoBehaviour:
   paletteName: Custom
   colors:
   - {r: 0.12175906, g: 0.88729787, b: 0.16548304, a: 1}
+  - {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}

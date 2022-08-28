@@ -1,0 +1,64 @@
+{
+    "Words":[
+        {
+        "name": "Corpse",
+        "trans": "جنازه",
+        "fr": "Corps"
+        },
+        {
+        "name": "Conceal",
+        "trans": "پنهان کردن",
+        "fr": "Cacher"
+        },
+        {
+        "name": "Dismal",
+        "trans": "دلگیر",
+        "fr": "Lugubre"
+        },
+        {
+        "name": "Frigid",
+        "trans": "منجمد",
+        "fr": "Froid"
+        },
+        {
+        "name": "Inhabit",
+        "trans": "ساکن شدن",
+        "fr": "Habiter"
+        },
+        {
+        "name": "Numb",
+        "trans": "بی حس شدن",
+        "fr": "Engourdi"
+        },
+        {
+        "name": "Peril",
+        "trans": "خطر",
+        "fr": "Péril"
+        },
+        {
+        "name": "Recline",
+        "trans": "درازکشیدن",
+        "fr": "reposer"
+        },
+        {
+            "name": "Shriek",
+            "trans": "جیغ زدن",
+            "fr": "Cri"
+        },
+        {
+            "name": "Sinister",
+            "trans": "پلید",
+            "fr": "Sinistre"
+        },
+        {
+            "name": "Tempt",
+            "trans": "وسوسه کردن",
+            "fr": "séduire"
+        },
+        {
+            "name": "Wager",
+            "trans": "شرطبندی",
+            "fr": "Pari"
+        }
+    ] 
+}

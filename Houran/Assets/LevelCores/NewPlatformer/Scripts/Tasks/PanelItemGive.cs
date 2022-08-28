@@ -64,6 +64,11 @@ public class PanelItemGive : MonoBehaviour
                     else if(TaskUIManager.EnteredChar.gameObject.tag == "Hub"){
                         TaskUIManager.EnteredChar.GetComponent<HubDoorTest>().ShowWordsForTest();
                     }
+                    else if(TaskUIManager.EnteredChar.gameObject.tag == "Twin"){
+                        GameObject TrueChar;
+                        TrueChar = TaskUIManager.EnteredChar.GetComponent<MyFinishPoint>().FinishPoint;
+                        TrueChar.GetComponent<TestForAll>().ShowWordsForTest();
+                    }
                     else {
                         TaskUIManager.EnteredChar.GetComponent<TestForAll>().ShowWordsForTest();
                     }

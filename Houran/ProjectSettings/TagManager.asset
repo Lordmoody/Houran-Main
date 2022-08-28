@@ -83,6 +83,8 @@ TagManager:
   - EnvBase
   - Global
   - bookstr
+  - VictoryThing
+  - Twin
   layers:
   - Default
   - TransparentFX
@@ -134,6 +136,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 686110975
+    locked: 0
+  - name: water
+    uniqueID: 2176966083
     locked: 0
   - name: ground
     uniqueID: 2092550255

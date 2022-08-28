@@ -139,6 +139,126 @@
             "name": "Do",
             "trans": "انجام دادن",
             "fr": "fais"
+        },
+         {
+        "name": "Abandon",
+        "trans": "ترک کردن",
+        "fr": "Abandonner"
+        },
+        {
+        "name": "Keen",
+        "trans": "تیز،مشتاق",
+        "fr": "Enthousiaste"
+        },
+        {
+        "name": "Jealous",
+        "trans": "حسود",
+        "fr": "Jaloux"
+        },
+        {
+        "name": "Tact",
+        "trans": "تدبیر",
+        "fr": "Tact"
+        },
+        {
+        "name": "Oath",
+        "trans": "سوگند،دشنام",
+        "fr": "Serment"
+        },
+        {
+        "name": "Vacant",
+        "trans": "خالی",
+        "fr": "Vacant"
+        },
+        {
+        "name": "Hardship",
+        "trans": "سختی",
+        "fr": "Épreuves"
+        },
+        {
+        "name": "Gallant",
+        "trans": "شجاع،جنتلمن",
+        "fr": "Galant"
+        },
+        {
+            "name": "Data",
+            "trans": "اطلاعات",
+            "fr": "informations"
+        },
+        {
+            "name": "Unaccustomed",
+            "trans": "غیرعادی",
+            "fr": "Inhabituel"
+        },
+        {
+            "name": "Bachelor",
+            "trans": "مرد مجرد",
+            "fr": "célibataire"
+        },
+        {
+            "name": "Qualify",
+            "trans": "واجد شرایط",
+            "fr": "Qualifier"
+        },
+        {
+        "name": "Corpse",
+        "trans": "جنازه",
+        "fr": "Corps"
+        },
+        {
+        "name": "Conceal",
+        "trans": "پنهان کردن",
+        "fr": "Cacher"
+        },
+        {
+        "name": "Dismal",
+        "trans": "دلگیر",
+        "fr": "Lugubre"
+        },
+        {
+        "name": "Frigid",
+        "trans": "منجمد",
+        "fr": "Froid"
+        },
+        {
+        "name": "Inhabit",
+        "trans": "ساکن شدن",
+        "fr": "Habiter"
+        },
+        {
+        "name": "Numb",
+        "trans": "بی حس شدن",
+        "fr": "Engourdi"
+        },
+        {
+        "name": "Peril",
+        "trans": "خطر",
+        "fr": "Péril"
+        },
+        {
+        "name": "Recline",
+        "trans": "درازکشیدن",
+        "fr": "reposer"
+        },
+        {
+            "name": "Shriek",
+            "trans": "جیغ زدن",
+            "fr": "Cri"
+        },
+        {
+            "name": "Sinister",
+            "trans": "پلید",
+            "fr": "Sinistre"
+        },
+        {
+            "name": "Tempt",
+            "trans": "وسوسه کردن",
+            "fr": "séduire"
+        },
+        {
+            "name": "Wager",
+            "trans": "شرطبندی",
+            "fr": "Pari"
         }
         
     ] 

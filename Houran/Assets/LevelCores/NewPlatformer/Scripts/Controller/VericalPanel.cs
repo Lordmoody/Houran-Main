@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 public class VericalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     public ControlGuide controlGuide;
     public GameObject CheckJump , CheckSit;
    #region FIELDS
     private Grid grid;
+    public Image Panel;
 
     private enum DraggedDirection
     {
@@ -18,7 +20,7 @@ public class VericalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
     }
     #endregion
 
-    #region  IDragHandler - IEndDragHandler
+    #region  IDragHandler - IEndDragHandler 
     public void OnEndDrag(PointerEventData eventData)
     {
         CombatScript.FingerMoved = true;
@@ -28,7 +30,10 @@ public class VericalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
         Debug.Log("norm + " + dragVectorDirection);
         GetDragDirection(dragVectorDirection);
         NewPlayerMovementP.CrouchValue = false;
+        Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0);
     }
+
+    
 
     //It must be implemented otherwise IEndDragHandler won't work 
     public void OnDrag(PointerEventData eventData)
@@ -51,8 +56,8 @@ public class VericalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
         if(GetDragDirection(dragVectorDirection) == DraggedDirection.Up){
             return;
         }
-
         
+        Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0.3f);
     }
 
     private DraggedDirection GetDragDirection(Vector3 dragVector)

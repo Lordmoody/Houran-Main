@@ -1,0 +1,64 @@
+{
+    "Words":[
+        {
+        "name": "Abandon",
+        "trans": "ترک کردن",
+        "fr": "Abandonner"
+        },
+        {
+        "name": "Keen",
+        "trans": "تیز،مشتاق",
+        "fr": "Enthousiaste"
+        },
+        {
+        "name": "Jealous",
+        "trans": "حسود",
+        "fr": "Jaloux"
+        },
+        {
+        "name": "Tact",
+        "trans": "تدبیر",
+        "fr": "Tact"
+        },
+        {
+        "name": "Oath",
+        "trans": "سوگند،دشنام",
+        "fr": "Serment"
+        },
+        {
+        "name": "Vacant",
+        "trans": "خالی",
+        "fr": "Vacant"
+        },
+        {
+        "name": "Hardship",
+        "trans": "سختی",
+        "fr": "Épreuves"
+        },
+        {
+        "name": "Gallant",
+        "trans": "شجاع،جنتلمن",
+        "fr": "Galant"
+        },
+        {
+            "name": "Data",
+            "trans": "اطلاعات",
+            "fr": "informations"
+        },
+        {
+            "name": "Unaccustomed",
+            "trans": "غیرعادی",
+            "fr": "Inhabituel"
+        },
+        {
+            "name": "Bachelor",
+            "trans": "مرد مجرد",
+            "fr": "célibataire"
+        },
+        {
+            "name": "Qualify",
+            "trans": "واجد شرایط",
+            "fr": "Qualifier"
+        }
+    ] 
+}
