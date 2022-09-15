@@ -20,7 +20,7 @@ public class VictoryCheck : MonoBehaviour
     public GameObject VertCont , HorzCont;
     public TaskUIManager taskUIManager;
 
-    GameObject ToDestroy;
+    public GameObject ToDestroy;
     // Start is called before the first frame update
     void Start()
     {
@@ -61,8 +61,7 @@ public class VictoryCheck : MonoBehaviour
             victorySound.Play();
             infoButton.SetActive(false);
             CoinManager.CurrentLevel +=1;
-            ToDestroy = TaskUIManager.EnteredChar;
-            Destroy(ToDestroy , 5f);
+            
             TaskUIManager.EnteredChar = null;
             ItemPanel.SetActive(false);
             HubPanel.SetActive(false);
@@ -79,6 +78,7 @@ public class VictoryCheck : MonoBehaviour
             foreach(GameObject tick in taskUIManager.Ticks){
                 tick.SetActive(false);
             }
+            Destroy(ToDestroy , 5f);
         }
     }
 

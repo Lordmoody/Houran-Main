@@ -8,7 +8,7 @@ public class ControlSlowMo : MonoBehaviour
 
     public void DoSlow(){
         Time.timeScale = 0.2f;
-        Invoke("StopSlowMo" , 1f);
+        Invoke("StopSlowMo" , 0.8f);
 
     }
 

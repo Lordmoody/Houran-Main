@@ -75,13 +75,12 @@ public class LevelEnvController : MonoBehaviour
             Destroy(Currentlevelenv);
             Invoke("ForForward" , 0.5f);
         }
-
-        
         Invoke("PlayFade" , 4f);
     }
     void ForForward(){
-            
-            MissionHolders[LevelNumber].SetActive(true);
+            if(LevelNumber >= CoinManager.CurrentLevel){
+                MissionHolders[LevelNumber].SetActive(true);
+            }
             GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos[LevelNumber - 1].position , Quaternion.identity);
             GeneratedLevel.transform.SetParent(EnvParent);
             script.CurrentCharacter.transform.position = forwardPos[LevelNumber - 1 ].position;

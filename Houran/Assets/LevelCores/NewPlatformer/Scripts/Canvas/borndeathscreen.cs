@@ -6,11 +6,18 @@ using UnityEngine.SceneManagement;
 public class borndeathscreen : MonoBehaviour
 {
     public Animator deathborn;
+    public PlayerHealth playerHealth;
     // Start is called before the first frame update
     void Start()
     {
         deathborn.SetTrigger("born");
-        PlayerHealth.playerDied = false;
+        if(PlayerHealth.playerDied == true){
+            playerHealth.healthPlayer = 100f;
+            PlayerHealth.playerDied = false;
+
+        }
+        
+        
     }
 
     public void Death(){
