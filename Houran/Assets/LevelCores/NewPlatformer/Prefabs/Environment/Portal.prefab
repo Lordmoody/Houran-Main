@@ -9581,9 +9581,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TeleportPos: {fileID: 0}
-  Poof: {fileID: 1056304569}
-  PoofPos: {fileID: 0}
-  PoofSound: {fileID: 0}
+  Poof: {fileID: 1992152415155680988, guid: 13528cd243fff91419ff9640ced4afe7, type: 3}
+  PoofPos: {fileID: 1056304570}
+  PoofSound: {fileID: 6011338938700658359}
 --- !u!1 &6792891092823224894
 GameObject:
   m_ObjectHideFlags: 0
