@@ -21709,8 +21709,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7023252641565717732, guid: 9ff51f41ff2eae841af1796fe076e420,
         type: 3}
+      propertyPath: IdealDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023252641565717732, guid: 9ff51f41ff2eae841af1796fe076e420,
+        type: 3}
       propertyPath: EndPointleft.x
-      value: 58
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 7023252641565717732, guid: 9ff51f41ff2eae841af1796fe076e420,
         type: 3}
@@ -21720,7 +21725,7 @@ PrefabInstance:
     - target: {fileID: 7023252641565717732, guid: 9ff51f41ff2eae841af1796fe076e420,
         type: 3}
       propertyPath: EndPointRight.x
-      value: 37
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 7023252641565717732, guid: 9ff51f41ff2eae841af1796fe076e420,
         type: 3}
