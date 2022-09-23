@@ -1,0 +1,64 @@
+{
+    "Words":[
+        {
+        "name": "Vapor",
+        "trans": "مه،بخار",
+        "fr": "Vapeur"
+        },
+        {
+        "name": "Eliminate",
+        "trans": "از بین بردن",
+        "fr": "Éliminer"
+        },
+        {
+        "name": "Villain",
+        "trans": "شرور",
+        "fr": "scélérat"
+        },
+        {
+        "name": "Dense",
+        "trans": "متراکم",
+        "fr": "Dense"
+        },
+        {
+        "name": "Utilize",
+        "trans": "به کار بردن",
+        "fr": "Utiliser"
+        },
+        {
+        "name": "Humid",
+        "trans": "مرطوب",
+        "fr": "Humide"
+        },
+        {
+        "name": "Theory",
+        "trans": "نظریه",
+        "fr": "théorie"
+        },
+        {
+        "name": "Descend",
+        "trans": "پایین آمدن",
+        "fr": "Descendre"
+        },
+        {
+            "name": "Circulate",
+            "trans": "چرخیدن",
+            "fr": "Circuler"
+        },
+        {
+            "name": "Enormous",
+            "trans": "بسیار بزرگ",
+            "fr": "Énorme"
+        },
+        {
+            "name": "Predict",
+            "trans": "پیش بینی کردن",
+            "fr": "Prédire"
+        },
+        {
+            "name": "Vanish",
+            "trans": "ناپدید شدن",
+            "fr": "Disparaître"
+        }
+    ] 
+}

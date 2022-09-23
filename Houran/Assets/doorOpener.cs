@@ -13,6 +13,7 @@ public class doorOpener : MonoBehaviour
     public Vector2 positionToOpen;
     public ParticleSystem OpeningParticle;
     public AudioSource openingSound;
+    public bool StopRonot = true;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,9 @@ public class doorOpener : MonoBehaviour
             }
             else{
                 openIt = false;
-                OpeningParticle.Stop();
+                if(StopRonot == true){
+                    OpeningParticle.Stop();
+                }
             }
         }
         

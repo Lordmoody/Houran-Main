@@ -19,6 +19,7 @@ public class TaskUIManager : MonoBehaviour
     public static string TskName;
     public static string EnteredTsk;
     public static int EnNumForThis;
+    public static bool ATaskRunning = false;
     
     public GameObject TreeButton;
     //
@@ -127,7 +128,7 @@ public class TaskUIManager : MonoBehaviour
     }
 
     public void Accepttsk(){
-        
+        ATaskRunning = true;
         AcceptBtn.SetActive(false);
         DeclineBtn.SetActive(false);
         TskName = EnteredTsk;

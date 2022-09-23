@@ -85,6 +85,7 @@ TagManager:
   - bookstr
   - VictoryThing
   - Twin
+  - BoxCore
   layers:
   - Default
   - TransparentFX
@@ -114,7 +115,7 @@ TagManager:
   - bouncer
   - acid
   - other
-  - 
+  - Box
   - 
   - 
   - 
@@ -130,6 +131,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: JustBox
+    uniqueID: 3467829179
     locked: 0
   - name: Web
     uniqueID: 3136022887

@@ -9,7 +9,7 @@ public class BringNextLevel : MonoBehaviour
     private GameObject Fader;
     
      void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "pplayer"){
+        if(other.gameObject.tag == "pplayer" && TaskUIManager.ATaskRunning == false){
             if(CoinManager.CurrentLevel >= nextEnvNum){
                 LevelEnvController.LevelNumber = nextEnvNum;
                 Fader = GameObject.FindGameObjectWithTag("off");

@@ -1,0 +1,64 @@
+{
+    "Words":[
+        {
+        "name": "Typical",
+        "trans": "معمول",
+        "fr": "Typique"
+        },
+        {
+        "name": "Minimum",
+        "trans": "کمترین",
+        "fr": "minimum"
+        },
+        {
+        "name": "Scarce",
+        "trans": "کمیاب",
+        "fr": "Rare"
+        },
+        {
+        "name": "Annual",
+        "trans": "سالانه",
+        "fr": "Annuel"
+        },
+        {
+        "name": "Persuade",
+        "trans": "قانع کردن",
+        "fr": "Persuader"
+        },
+        {
+        "name": "Essential",
+        "trans": "ضروری",
+        "fr": "essential"
+        },
+        {
+        "name": "Blend",
+        "trans": "ترکیب کردن",
+        "fr": "Mélange"
+        },
+        {
+        "name": "Visible",
+        "trans": "قابل دیدن",
+        "fr": "Visible"
+        },
+        {
+            "name": "Expensive",
+            "trans": "گران",
+            "fr": "cher"
+        },
+        {
+            "name": "Talent",
+            "trans": "استعداد",
+            "fr": "Talent"
+        },
+        {
+            "name": "Devise",
+            "trans": "نقشه کشیدن",
+            "fr": "Concevoir"
+        },
+        {
+            "name": "Wholesale",
+            "trans": "عمده فروشی",
+            "fr": "De gros"
+        }
+    ] 
+}

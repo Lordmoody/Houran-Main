@@ -10,6 +10,7 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
     private Grid grid;
 
     public Image Panel;
+    public Animator Joys;
     private enum DraggedDirection
     {
        
@@ -28,8 +29,9 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
       //  Debug.Log("norm + " + dragVectorDirection);
        // GetDragDirection(dragVectorDirection);
        NewPlayerMovementP.HorizValue = 0;
+       Joys.SetInteger("Side" , 0);
        CombatScript.FingerMoved = true;
-       Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0);
+     //  Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0);
     }
 
     //It must be implemented otherwise IEndDragHandler won't work 
@@ -45,7 +47,7 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
         Vector3 dragVectorDirection = (eventData.position - eventData.pressPosition).normalized;
         Debug.Log("norm + " + dragVectorDirection);
         GetDragDirection(dragVectorDirection);
-        Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0.3f);
+      //  Panel.color = new Color(Panel.color.r , Panel.color.g , Panel.color.b , 0.3f);
         
     }
 
@@ -59,9 +61,11 @@ public class HorizontalPanel : MonoBehaviour, IDragHandler, IEndDragHandler
             draggedDir = (dragVector.x > 0) ? DraggedDirection.Right : DraggedDirection.Left;
             if(draggedDir == DraggedDirection.Right){
                 NewPlayerMovementP.HorizValue = 1;
+                Joys.SetInteger("Side" , 1);
             }
             else if(draggedDir == DraggedDirection.Left){
                 NewPlayerMovementP.HorizValue = -1;
+                Joys.SetInteger("Side" , -1);
             }
         }
         else{

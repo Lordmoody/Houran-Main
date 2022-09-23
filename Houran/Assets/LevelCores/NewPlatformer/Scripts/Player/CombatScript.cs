@@ -12,7 +12,7 @@ public class CombatScript : MonoBehaviour
     public ParticleSystem dag1p , dag2p;
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
+    public LayerMask enemyLayers , BoxLayer;
     public float HitDamage = 20f;
     //to wait for next attack series
     public float AttackRate = 2f;
@@ -297,7 +297,13 @@ public class CombatScript : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(HitDamage);
             HitParticle.Play();
             damaged = true;
-        }   
+        }
+        ///Detect Box
+            Collider2D[] hitBoxes  =  Physics2D.OverlapCircleAll(attackPoint.position , attackRange , BoxLayer);
+            foreach(Collider2D box in hitBoxes){
+            box.GetComponent<BoxController>().BreakBox();
+        }
+        ///end
         if(damaged == true){
             hitda.Play();
             CameraShakerHandler.Shake(MyShake);

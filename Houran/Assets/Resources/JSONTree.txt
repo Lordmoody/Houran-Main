@@ -259,6 +259,126 @@
             "name": "Wager",
             "trans": "شرطبندی",
             "fr": "Pari"
+        },
+        {
+        "name": "Typical",
+        "trans": "معمول",
+        "fr": "Typique"
+        },
+        {
+        "name": "Minimum",
+        "trans": "کمترین",
+        "fr": "minimum"
+        },
+        {
+        "name": "Scarce",
+        "trans": "کمیاب",
+        "fr": "Rare"
+        },
+        {
+        "name": "Annual",
+        "trans": "سالانه",
+        "fr": "Annuel"
+        },
+        {
+        "name": "Persuade",
+        "trans": "قانع کردن",
+        "fr": "Persuader"
+        },
+        {
+        "name": "Essential",
+        "trans": "ضروری",
+        "fr": "essential"
+        },
+        {
+        "name": "Blend",
+        "trans": "ترکیب کردن",
+        "fr": "Mélange"
+        },
+        {
+        "name": "Visible",
+        "trans": "قابل دیدن",
+        "fr": "Visible"
+        },
+        {
+            "name": "Expensive",
+            "trans": "گران",
+            "fr": "cher"
+        },
+        {
+            "name": "Talent",
+            "trans": "استعداد",
+            "fr": "Talent"
+        },
+        {
+            "name": "Devise",
+            "trans": "نقشه کشیدن",
+            "fr": "Concevoir"
+        },
+        {
+            "name": "Wholesale",
+            "trans": "عمده فروشی",
+            "fr": "De gros"
+        },
+        {
+        "name": "Vapor",
+        "trans": "مه،بخار",
+        "fr": "Vapeur"
+        },
+        {
+        "name": "Eliminate",
+        "trans": "از بین بردن",
+        "fr": "Éliminer"
+        },
+        {
+        "name": "Villain",
+        "trans": "شرور",
+        "fr": "scélérat"
+        },
+        {
+        "name": "Dense",
+        "trans": "متراکم",
+        "fr": "Dense"
+        },
+        {
+        "name": "Utilize",
+        "trans": "به کار بردن",
+        "fr": "Utiliser"
+        },
+        {
+        "name": "Humid",
+        "trans": "مرطوب",
+        "fr": "Humide"
+        },
+        {
+        "name": "Theory",
+        "trans": "نظریه",
+        "fr": "théorie"
+        },
+        {
+        "name": "Descend",
+        "trans": "پایین آمدن",
+        "fr": "Descendre"
+        },
+        {
+            "name": "Circulate",
+            "trans": "چرخیدن",
+            "fr": "Circuler"
+        },
+        {
+            "name": "Enormous",
+            "trans": "بسیار بزرگ",
+            "fr": "Énorme"
+        },
+        {
+            "name": "Predict",
+            "trans": "پیش بینی کردن",
+            "fr": "Prédire"
+        },
+        {
+            "name": "Vanish",
+            "trans": "ناپدید شدن",
+            "fr": "Disparaître"
         }
         
     ] 

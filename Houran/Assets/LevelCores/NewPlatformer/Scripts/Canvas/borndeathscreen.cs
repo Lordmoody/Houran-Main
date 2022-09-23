@@ -7,6 +7,7 @@ public class borndeathscreen : MonoBehaviour
 {
     public Animator deathborn;
     public PlayerHealth playerHealth;
+    public Script script;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,9 @@ public class borndeathscreen : MonoBehaviour
         if(PlayerHealth.playerDied == true){
             playerHealth.healthPlayer = 100f;
             PlayerHealth.playerDied = false;
-
+            script.CurrentCharacter.GetComponent<Collider2D>().enabled = true;
+            script.CurrentCharacter.GetComponent<CombatScript>().enabled = true;
+            script.CurrentCharacter.GetComponent<NewPlayerMovementP>().enabled = true;
         }
         
         

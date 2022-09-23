@@ -26,7 +26,7 @@ public class Script : MonoBehaviour
     public CinemachinSwitcher cinemachinSwitcher;
     public GameObject BackGround1 , BackGround2;
     public GameObject GameCanvas;
-   public AudioSource MainThemePlat , MainThemeTree , Ambience;
+   public AudioSource MainThemePlat , MainThemeTree;
 
 
    public GameObject VictoryPanel , UiCamera;
@@ -80,7 +80,6 @@ public class Script : MonoBehaviour
         UiCamera.SetActive(false);
         MainThemePlat.Stop();
         MainThemeTree.Play();
-        Ambience.Stop();
         CombatScript.InTree = true;
         
     }

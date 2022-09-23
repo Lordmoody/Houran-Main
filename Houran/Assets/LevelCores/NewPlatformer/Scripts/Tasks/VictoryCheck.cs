@@ -61,7 +61,7 @@ public class VictoryCheck : MonoBehaviour
             victorySound.Play();
             infoButton.SetActive(false);
             CoinManager.CurrentLevel +=1;
-            
+            TaskUIManager.ATaskRunning = false;
             TaskUIManager.EnteredChar = null;
             ItemPanel.SetActive(false);
             HubPanel.SetActive(false);
