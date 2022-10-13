@@ -61,7 +61,7 @@ public class CombatScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PlayerHealth.playerDied == false){
+        if(PlayerHealth.playerDied == false && this.gameObject.GetComponent<NewPlayerMovementP>().Freezed == false){
             #if UNITY_ANDROID
             AndroidController();
         #endif

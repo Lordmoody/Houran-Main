@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     public ParticleSystem Detected;
     public EnemyFieldOfView enemyFieldOfView;
     public AudioSource DetectSound;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +27,20 @@ public class EnemyAI : MonoBehaviour
     public void OnDetection(){
         Detected.Play();
         DetectSound.Play();
-        enemyMovement.CheckPlayer = true;
+        if(enemyMovement != null){
+            enemyMovement.CheckPlayer = true;
+        }
+        
     }
 
     public void OnExit(){
-        enemyMovement.CheckPlayer = false;
+        if(enemyMovement != null){
+            enemyMovement.CheckPlayer = false;
+        }
+        
+    }
+    public void BackDetect(){
+        enemy.transform.localScale = new Vector3(-enemy.transform.localScale.x,enemy.transform.localScale.y,enemy.transform.localScale.z );
     }
 
     /*void OnTriggerEnter2D(Collider2D other){

@@ -8454,8 +8454,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
+    attribute: m_LocalEulerAngles.z
+    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
+      2 L/Bone_Skirt 2 L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8465,7 +8466,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
+    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
+      2 L/Bone_Skirt 2 L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8474,8 +8476,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
+    attribute: m_LocalEulerAngles.x
+    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
+      2 L/Bone_Skirt 2 L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8959,8 +8962,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
-      2 L/Bone_Skirt 2 L
+    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8970,8 +8972,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
-      2 L/Bone_Skirt 2 L
+    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8981,8 +8982,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Root/Pos_Hip/Bone_Hip/Skirt/Bone_Skirt/Pos_Skirt 1 L/Bone_Skirt 1 L/Pos_Skirt
-      2 L/Bone_Skirt 2 L
+    path: Root/Pos_Hip/Bone_Hip/Pos_Body/Bone_Body
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

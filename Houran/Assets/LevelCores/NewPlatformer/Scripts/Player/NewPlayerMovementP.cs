@@ -31,6 +31,12 @@ public class NewPlayerMovementP : MonoBehaviour
     [HideInInspector]public string langCodeSave;
     [HideInInspector]public int Lvlsave;
 
+
+    public GameObject FreezeSheild;
+    public ParticleSystem IceHit;
+    public AudioSource freezsound , icebreak;
+   [HideInInspector] public bool Freezed = false;
+
     ///end
     void Awake(){
         Debug.Log(Application.persistentDataPath);
@@ -48,7 +54,7 @@ public class NewPlayerMovementP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PlayerHealth.playerDied == false){
+        if(PlayerHealth.playerDied == false && Freezed == false){
             if(CombatScript.Spelling == false){  
                 #if UNITY_EDITOR
                     horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -102,7 +108,7 @@ public class NewPlayerMovementP : MonoBehaviour
     }
 
     void FixedUpdate(){
-        if(PlayerHealth.playerDied == false){
+        if(PlayerHealth.playerDied == false && Freezed == false){
                 controller.Move(horizontalMove * Time.deltaTime , crouch , jump);
         jump = false;
         if(horizontalMove != 0 && jumped == false){
@@ -177,5 +183,30 @@ public class NewPlayerMovementP : MonoBehaviour
     
     void SetCrouchSpeed(){
         controller.m_CrouchSpeed = controller.OriginalCrouchSpeed;
+    }
+
+    public void FreezePlayer(){
+        Freezed = true;
+        animator.SetBool("Freeze" , true);
+        FreezeSheild.SetActive(true);
+        pushingSound.Stop();
+        runs.Stop();
+        crouchMove.Stop();
+        freezsound.Play();
+        Invoke("Exitfreeze" , 3f);
+       this.gameObject.GetComponent<Rigidbody2D>().sleepMode = RigidbodySleepMode2D.StartAsleep;
+    }
+
+    public void Exitfreeze(){
+        if(Freezed == true){
+            Freezed = false;
+            animator.SetBool("Freeze" , false);
+            FreezeSheild.SetActive(false);
+            IceHit.Play();
+            icebreak.Play();
+            this.gameObject.GetComponent<Rigidbody2D>().sleepMode = RigidbodySleepMode2D.StartAwake;
+           
+        }
+        
     }
 }

@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
     }
     public void TakeDamage(float damage){
         EnemyGotDamaged = true;
-        Invoke("DamagesPass" , 1.5f);
+        Invoke("DamagesPass" , 1f);
         currentHealth -= damage;
         barHealth.fillAmount = currentHealth / 100;
         
@@ -57,7 +57,9 @@ public class Enemy : MonoBehaviour
         ItDied = true;
         this.gameObject.GetComponent<Collider2D>().enabled = false;
         this.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
-        this.gameObject.GetComponent<EnemyMovement>().enabled = false;
+        if(this.gameObject.GetComponent<EnemyMovement>() != null){
+            this.gameObject.GetComponent<EnemyMovement>().enabled = false;
+        }
         ForAI.GetComponent<EnemyAI>().enabled = false;
         ForAI.GetComponent<EnemyFieldOfView>().enabled = false;
         Instantiate(DeathParticle , DeathParticlePosition.position , Quaternion.identity);
@@ -103,7 +105,7 @@ public class Enemy : MonoBehaviour
         stuckAnimator.SetBool("Stuck" , false);
         stuckAnimator.SetTrigger("End");
         Slept = false;
-         animator.SetBool("Dizzy" , false);
+        animator.SetBool("Dizzy" , false);
         //start movement
         //idle animation
     }

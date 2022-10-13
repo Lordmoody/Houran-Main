@@ -20,7 +20,9 @@ public class CheckBehind : MonoBehaviour
     void Update()
     {
         if(LookBack == true && enemy.EnemyGotDamaged == true){
-            enemyMovement.PlayerinRange = true;
+            if(enemyMovement != null){
+                enemyMovement.PlayerinRange = true;
+            }
             Thisenemy.transform.localScale = new Vector3(-Thisenemy.transform.localScale.x,Thisenemy.transform.localScale.y,Thisenemy.transform.localScale.z );
             LookBack = false;
         }

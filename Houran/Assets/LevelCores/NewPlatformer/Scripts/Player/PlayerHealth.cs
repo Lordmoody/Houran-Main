@@ -29,6 +29,9 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void TakeDamge(float damage){
+        if(this.gameObject.GetComponent<NewPlayerMovementP>().Freezed == true){
+            this.gameObject.GetComponent<NewPlayerMovementP>().Exitfreeze();
+        }
         CameraShakerHandler.Shake(shakeHealth);
         healthPlayer -= damage;
         BarEffect.SetTrigger("Less");

@@ -10,7 +10,7 @@ public class EnemyFieldOfView : MonoBehaviour
     public LayerMask obstructionLayer;
     public GameObject playerRef;
     public bool PLayerDetected = false;
-
+    [HideInInspector] public bool CheckNow = true;
     public bool CanSeePlayer {get ; private set ;}
     public UnityEvent OnDetection , OnExit;
 
@@ -29,6 +29,7 @@ public class EnemyFieldOfView : MonoBehaviour
     }
     
     private void FOV(){
+        if(CheckNow == true){
         Collider2D[] rangeCheck = Physics2D.OverlapCircleAll(transform.position , radius, targetLayer);
         if(rangeCheck.Length > 0){
             Transform target = rangeCheck[0].transform;
@@ -53,6 +54,7 @@ public class EnemyFieldOfView : MonoBehaviour
             CanSeePlayer = false;
             OnExit.Invoke();
         }
+    }
     }
 #if UNITY_EDITOR_WIN
     private void OnDrawGizmos(){

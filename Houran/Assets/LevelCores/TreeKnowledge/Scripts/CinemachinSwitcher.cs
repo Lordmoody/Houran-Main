@@ -18,6 +18,9 @@ public class CinemachinSwitcher : MonoBehaviour
     public void SwitchToPlatformer(){
         anim.Play("TreeState");
     }
+    public void SwitchToFar(){
+        anim.Play("FarCam");
+    }
 
     
 }

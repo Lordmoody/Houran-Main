@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: f62af83ce1ee4034f8b6995c2c5ece68
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1755007009466376627
+    second: Bodyset Male_0
+  - first:
+      213: -8464591861294879513
+    second: Bodyset Male_1
+  - first:
+      213: 3846105462101155990
+    second: Bodyset Male_2
+  - first:
+      213: 1958682421604332705
+    second: Bodyset Male_3
+  - first:
+      213: -1241921323882551061
+    second: Bodyset Male_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,7 +124,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 47
     textureCompression: 1
@@ -133,7 +148,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bodyset Male_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 331
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b16091a3990b5810800000000000000
+      internalID: 1755007009466376627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyset Male_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 313
+        width: 161
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec2bdaac8ab78a80800000000000000
+      internalID: -8464591861294879513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyset Male_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 325
+        width: 150
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690aa3d4a8c106530800000000000000
+      internalID: 3846105462101155990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyset Male_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 57
+        width: 161
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4378fe843ae2b10800000000000000
+      internalID: 1958682421604332705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bodyset Male_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 15
+        width: 172
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86ffac22fc3cee0800000000000000
+      internalID: -1241921323882551061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
