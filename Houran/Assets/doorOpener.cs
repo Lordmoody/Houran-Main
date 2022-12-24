@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 
 public class doorOpener : MonoBehaviour
 {
-    
-
+    [SerializeField]
+    private CinemachineVirtualCamera vcam1;
 
     public GameObject Door;
     bool openIt = false;
@@ -32,6 +33,7 @@ public class doorOpener : MonoBehaviour
                 openIt = false;
                 if(StopRonot == true){
                     OpeningParticle.Stop();
+                    Invoke("cameraSwitch" , 3);
                 }
             }
         }
@@ -42,6 +44,12 @@ public class doorOpener : MonoBehaviour
         openIt = true;
         openingSound.Play();
         OpeningParticle.Play();
+        vcam1.Priority = 15;
+
+    }
+     public void cameraSwitch(){
+        vcam1.Priority = 8;
 
     }
 }
+
