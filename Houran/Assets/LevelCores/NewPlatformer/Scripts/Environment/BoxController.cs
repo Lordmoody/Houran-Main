@@ -13,6 +13,6 @@ public class BoxController : MonoBehaviour
     void BreakNow(){
         BoxSprite.enabled = false;
         Instantiate(ParticleBreak , BoxGO.transform.position , Quaternion.identity);
-        Destroy(BoxGO , 1f);
+        Destroy(BoxGO , 0.3f);
     }
 }

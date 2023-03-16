@@ -33,7 +33,7 @@ public class doorOpener : MonoBehaviour
                 openIt = false;
                 if(StopRonot == true){
                     OpeningParticle.Stop();
-                    Invoke("cameraSwitch" , 3);
+                    
                 }
             }
         }
@@ -45,6 +45,7 @@ public class doorOpener : MonoBehaviour
         openingSound.Play();
         OpeningParticle.Play();
         vcam1.Priority = 15;
+        Invoke("cameraSwitch" , 5);
 
     }
      public void cameraSwitch(){

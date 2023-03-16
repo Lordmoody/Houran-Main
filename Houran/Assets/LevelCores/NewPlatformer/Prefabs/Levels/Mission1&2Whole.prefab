@@ -34589,6 +34589,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 319685165911470871}
     m_Modifications:
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 965875898913192678, guid: d84881417edde1f45baba1c14053876a,
         type: 3}
       propertyPath: m_RootOrder
@@ -34654,6 +34664,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 965875899579277818, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 965875899579277820, guid: d84881417edde1f45baba1c14053876a,
         type: 3}
       propertyPath: m_StaticEditorFlags
