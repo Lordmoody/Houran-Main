@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2854,7 +2854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48211349}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -233.3, y: 22.5, z: 0}
+  m_LocalPosition: {x: -260.2, y: 64.3, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 811325774}
@@ -7115,7 +7115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142015674}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -283.96, y: 78.4, z: 0}
+  m_LocalPosition: {x: -316.5, y: 61.2, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1781825748}
@@ -24560,7 +24560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526714677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -523.9, y: -9, z: 0}
+  m_LocalPosition: {x: -122.1, y: -106.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1877188044}
@@ -26288,8 +26288,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: 6782656137137e841b898edb264643e8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 164259881bccd42498459b5cf5ab820b, type: 3}
+  m_Color: {r: 0, g: 0.20941886, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -27641,7 +27641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597807398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -239.7, y: 54.2, z: 0}
+  m_LocalPosition: {x: -280.6, y: 65.1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1950298648}
@@ -29554,7 +29554,7 @@ MonoBehaviour:
   - Probe
   - Reform
   itemController: {fileID: 1180069294}
-  neededprogress: 12
+  neededprogress: 11
   PanelVictory: {fileID: 2001748929}
   victorySound: {fileID: 1946173534}
   infoButton: {fileID: 849892248}
@@ -37214,8 +37214,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: 6782656137137e841b898edb264643e8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 164259881bccd42498459b5cf5ab820b, type: 3}
+  m_Color: {r: 0.33849514, g: 0.2783019, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -39740,7 +39740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856345552}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -223.6, y: 23.2, z: 0}
+  m_LocalPosition: {x: -324.1, y: 18, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 134596027}
@@ -54580,7 +54580,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166224384}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 98.3, y: 3.5, z: 0}
+  m_LocalPosition: {x: -6.7, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155323971}
@@ -54903,7 +54903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171874405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -274.3, y: 40.8, z: 0}
+  m_LocalPosition: {x: -331.3, y: 35.1, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1907012041}
@@ -55928,6 +55928,7 @@ MonoBehaviour:
   - {fileID: 738678691}
   - {fileID: 41120385}
   - {fileID: 189924345}
+  - {fileID: 1385665905}
   TskItems:
   - {fileID: 2065770386}
   - {fileID: 1528156280}
@@ -55937,6 +55938,7 @@ MonoBehaviour:
   - {fileID: 814223466}
   - {fileID: 1661686982}
   - {fileID: 1458209445}
+  - {fileID: 526714677}
   itemController: {fileID: 1180069294}
   Fader: {fileID: 1052577038}
   OnNextLvl:
@@ -57874,7 +57876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205312381}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -226.8, y: 65.4, z: 0}
+  m_LocalPosition: {x: -292.6, y: 36.8, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 411234786}
@@ -59739,7 +59741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268655814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -360.89, y: 54.2, z: 0}
+  m_LocalPosition: {x: -331.3, y: 89.3, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 474252822}
@@ -62048,7 +62050,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323191791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -211.1, y: 77.3, z: 0}
+  m_LocalPosition: {x: -301.6, y: 12.6, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1439301308}
@@ -78363,7 +78365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713461974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -246.6, y: 19.4, z: 0}
+  m_LocalPosition: {x: -280.1, y: 25.7, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1398872162}
@@ -78739,7 +78741,7 @@ GameObject:
   - component: {fileID: 1727914442}
   - component: {fileID: 1727914441}
   m_Layer: 17
-  m_Name: GetMission5
+  m_Name: GetMission6
   m_TagString: Twin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78762,8 +78764,8 @@ MonoBehaviour:
   taskIcon: {fileID: 1482692610}
   TskButton: {fileID: 2011467935}
   TskForThis: 504
-  CharNum: 7
-  ThisChildNum: 4
+  CharNum: 8
+  ThisChildNum: 5
   taskUIManager: {fileID: 1603415641}
   ForThisChar: {fileID: 1561941337}
   ThisisDone: 0
@@ -78783,17 +78785,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f053da9f2478c7640968d4eef4bc1342, type: 3}
   thisendnum: 12
   EndNumGuide: 12
-  ThisTarget: {fileID: 1781075129}
-  RequiredLevel: 6
+  ThisTarget: {fileID: 1166224384}
+  RequiredLevel: 8
   ErrorPanel: {fileID: 786945063}
   myWordList:
     Words: []
-  textJsonWords: {fileID: 0}
-  ThiswordsJson: JSONLesson5
+  textJsonWords: {fileID: 4900000, guid: 6cddc3359ed2c4249bc8be7e8ffbb81a, type: 3}
+  ThiswordsJson: JSONLesson6
   ENGwords: 
   FRwords: 
   itemController: {fileID: 1180069294}
-  MissionNumber: 7
+  MissionNumber: 8
 --- !u!114 &1727914441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78820,18 +78822,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemsToFinish:
-  - Tradition
-  - Rural
-  - Burden
-  - Campus
-  - Majority
-  - Assemble
-  - Explore
-  - Topic
-  - Debate
-  - Evade
-  - Probe
-  - Reform
+  - Approach
+  - Detect
+  - Defect
+  - Employee
+  - Neglect
+  - Deceive
+  - Undoubtedly
+  - Popular
+  - Thorough
+  - Client
+  - Comprehensive
+  - Defraud
   itemController: {fileID: 1180069294}
   neededprogress: 12
   PanelVictory: {fileID: 2001748929}
@@ -78969,7 +78971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727914439}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -194.21, y: -10.48, z: 0}
+  m_LocalPosition: {x: -206.5, y: -10.5, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 552406916}
@@ -83488,7 +83490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819678383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -328.39, y: 84.38, z: 0}
+  m_LocalPosition: {x: -349.4, y: 83, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1636034193}
@@ -85472,7 +85474,7 @@ GameObject:
   - component: {fileID: 1862015763}
   - component: {fileID: 1862015762}
   m_Layer: 17
-  m_Name: FinishMission5
+  m_Name: FinishMission6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85486,7 +85488,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862015760}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -112.62, y: 16.24, z: 0}
+  m_LocalPosition: {x: -172.58, y: -88.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 794023740}
@@ -85535,7 +85537,7 @@ MonoBehaviour:
   ItemPanel: {fileID: 1089449638}
   wordText: {fileID: 1146884994}
   sideCharacter: {fileID: 1727914440}
-  ItemNumFromHere: 64
+  ItemNumFromHere: 88
   VertCont: {fileID: 753273232}
   HorzCont: {fileID: 1765344686}
   infoButton: {fileID: 849892248}
@@ -85948,7 +85950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877188043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -335.55, y: 21.95, z: 0}
+  m_LocalPosition: {x: -312.3, y: 90.4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1356335454}
@@ -89193,7 +89195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941988977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -323.1, y: 89.1, z: 0}
+  m_LocalPosition: {x: -336, y: 74.2, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1177894107}

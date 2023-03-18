@@ -1,0 +1,65 @@
+{
+    "Words":[
+        {
+            "name": "Approach",
+            "trans": "نزدیک شدن",
+            "fr": "Approche"
+        }        ,
+        {
+            "name": "Detect",
+            "trans": "کشف کردن",
+            "fr": "Détecter"
+        }        ,
+        {
+            "name": "Defect",
+            "trans": "ناقص",
+            "fr": "Défaut"
+        }        ,
+        {
+            "name": "Employee",
+            "trans": "کارمند",
+            "fr": "Employé"
+        }        ,
+        {
+            "name": "Neglect",
+            "trans": "بی توجهی",
+            "fr": "Négligence"
+        }        ,
+        {
+            "name": "Deceive",
+            "trans": "فریب دادن",
+            "fr": "Tromper"
+        }        ,
+        {
+            "name": "Undoubtedly",
+            "trans": "بدون شک،قطعا",
+            "fr": "Indubitablement"
+        }        ,
+        {
+            "name": "Popular",
+            "trans": "محبوب",
+            "fr": "Populaire"
+        }        ,
+        {
+            "name": "Thorough",
+            "trans": "کامل",
+            "fr": "Minutieux"
+        }        ,
+        {
+            "name": "Client",
+            "trans": "مشتری",
+            "fr": "Client"
+        }        ,
+        {
+            "name": "Comprehensive",
+            "trans": "جامع",
+            "fr": "Complet"
+        }        ,
+        {
+            "name": "Defraud",
+            "trans": "کلاهبرداری",
+            "fr": "Frauder"
+        }
+        
+    ] 
+}
