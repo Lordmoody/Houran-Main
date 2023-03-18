@@ -379,6 +379,77 @@
             "name": "Vanish",
             "trans": "ناپدید شدن",
             "fr": "Disparaître"
+        },
+        {
+            "name": "Tradition",
+            "trans": "سنت، رسم",
+            "fr": "papdasdas"
+        }
+        ,
+        {
+            "name": "Rural",
+            "trans": "روستایی",
+            "fr": "rural"
+        }
+        ,
+        {
+            "name": "Burden",
+            "trans": "بار",
+            "fr": "fardeau"
+        }
+        ,
+        {
+            "name": "Campus ",
+            "trans": "محوطه دانشگاه",
+            "fr": "Campus"
+        }
+        ,
+        {
+            "name": "Majority",
+            "trans": "اکثریت",
+            "fr": "Majorité"
+        }
+        ,
+        {
+            "name": "Assemble",
+            "trans": "گرد آمدن",
+            "fr": "Assembler"
+        }
+        ,
+        {
+            "name": "Explore",
+            "trans": "اکتشاف کردن",
+            "fr": "Explorer"
+        }
+        ,
+        {
+            "name": "Topic",
+            "trans": "مبحث",
+            "fr": "Sujet"
+        }
+        ,
+        {
+            "name": "Debate",
+            "trans": "مناظره",
+            "fr": "Débat"
+        }
+        ,
+        {
+            "name": "Evade",
+            "trans": "طفره رفتن",
+            "fr": "Éluder"
+        }
+        ,
+        {
+            "name": "Probe",
+            "trans": "پویش کردن",
+            "fr": "Sonde"
+        }
+        ,
+        {
+            "name": "Reform",
+            "trans": "اصلاحات",
+            "fr": "Réforme"
         }
         
     ] 

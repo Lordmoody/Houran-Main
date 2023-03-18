@@ -42,7 +42,7 @@ public class LevelEnvController : MonoBehaviour
             GeneratedLevel = Instantiate(Envss[LevelNumber - 1] , LevelPos[LevelNumber - 1].position , Quaternion.identity);
             GeneratedLevel.transform.SetParent(EnvParent);
             script.CurrentCharacter.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            if(SaveDatasPlayer.notFound == false && LevelNumber == 5){
+            if(SaveDatasPlayer.notFound == false && LevelNumber == 7){
                 script.CurrentCharacter.gameObject.transform.position = forwardPos[LevelNumber-1].position;
             }
             Currentlevelenv = GeneratedLevel;
