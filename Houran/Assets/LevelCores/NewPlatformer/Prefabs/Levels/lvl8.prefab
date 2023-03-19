@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 333568740381380671}
   m_Layer: 10
   m_Name: Tilemap (1)
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34129,7 +34129,7 @@ GameObject:
   - component: {fileID: 333568740841077310}
   m_Layer: 10
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59808,7 +59808,7 @@ GameObject:
   - component: {fileID: 333568741332416373}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95512,7 +95512,7 @@ PrefabInstance:
     - target: {fileID: 6792891092823125528, guid: d77c0e92d2ded124b8ff16e15dbd1810,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.660355
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6792891092823125528, guid: d77c0e92d2ded124b8ff16e15dbd1810,
         type: 3}
@@ -95857,7 +95857,7 @@ PrefabInstance:
     - target: {fileID: 6792891092823125528, guid: d77c0e92d2ded124b8ff16e15dbd1810,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.660355
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6792891092823125528, guid: d77c0e92d2ded124b8ff16e15dbd1810,
         type: 3}
