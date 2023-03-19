@@ -16833,12 +16833,12 @@ PrefabInstance:
     - target: {fileID: 1571562086499439814, guid: 14f77abd21fea4646b016d1f704e8ce2,
         type: 3}
       propertyPath: m_Mass
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1571562086499439814, guid: 14f77abd21fea4646b016d1f704e8ce2,
         type: 3}
       propertyPath: m_LinearDrag
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f77abd21fea4646b016d1f704e8ce2, type: 3}
@@ -18033,12 +18033,12 @@ PrefabInstance:
     - target: {fileID: 1571562086499439814, guid: 14f77abd21fea4646b016d1f704e8ce2,
         type: 3}
       propertyPath: m_Mass
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1571562086499439814, guid: 14f77abd21fea4646b016d1f704e8ce2,
         type: 3}
       propertyPath: m_LinearDrag
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f77abd21fea4646b016d1f704e8ce2, type: 3}
@@ -18743,7 +18743,7 @@ PrefabInstance:
     - target: {fileID: 1008732096102840297, guid: 0802ada4fd3f512489cb1da33274b4fc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 42.26
+      value: 41.98
       objectReference: {fileID: 0}
     - target: {fileID: 1008732096102840297, guid: 0802ada4fd3f512489cb1da33274b4fc,
         type: 3}

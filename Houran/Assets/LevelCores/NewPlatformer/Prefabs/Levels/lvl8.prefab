@@ -95920,6 +95920,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 333568740369874912}
     m_Modifications:
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2035528565
+      objectReference: {fileID: 0}
     - target: {fileID: 965875898913192678, guid: d84881417edde1f45baba1c14053876a,
         type: 3}
       propertyPath: m_RootOrder
@@ -95990,6 +96000,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeNextLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 965875899579277818, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875899579277818, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2035528565
+      objectReference: {fileID: 0}
     - target: {fileID: 965875899610593631, guid: d84881417edde1f45baba1c14053876a,
         type: 3}
       propertyPath: nextEnvNum
@@ -96010,6 +96030,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 333568740369874912}
     m_Modifications:
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875898913192676, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2035528565
+      objectReference: {fileID: 0}
     - target: {fileID: 965875898913192678, guid: d84881417edde1f45baba1c14053876a,
         type: 3}
       propertyPath: m_RootOrder
@@ -96079,6 +96109,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FadeNextLevel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875899579277818, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965875899579277818, guid: d84881417edde1f45baba1c14053876a,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2035528565
       objectReference: {fileID: 0}
     - target: {fileID: 965875899610593631, guid: d84881417edde1f45baba1c14053876a,
         type: 3}

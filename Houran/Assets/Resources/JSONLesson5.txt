@@ -32,13 +32,13 @@
         ,
         {
             "name": "Assemble",
-            "trans": "گرد آمدن",
+            "trans": "سر هم کردن",
             "fr": "Assembler"
         }
         ,
         {
             "name": "Explore",
-            "trans": "اکتشاف کردن",
+            "trans": "بررسی کردن",
             "fr": "Explorer"
         }
         ,
