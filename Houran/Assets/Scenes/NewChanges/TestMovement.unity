@@ -2920,9 +2920,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 97
+  arrayNum: 98
   ThisItemName: Comprehensive
-  itemNum: 97
+  itemNum: 98
   NumInThis: 10
   PickUp: {fileID: 2051713760}
   pickupSound: {fileID: 1919620297}
@@ -2941,7 +2941,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48211349}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -26243,8 +26243,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552406915}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.26666635, y: 0.36666873, z: 0}
-  m_LocalScale: {x: 3.3333323, y: 3.3333323, z: 1}
+  m_LocalPosition: {x: 0.1, y: -0, z: 0}
+  m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 1727914445}
   m_RootOrder: 0
@@ -26267,7 +26267,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c85748c8297b0c84bb9beab0286e114f, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26288,8 +26288,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: 164259881bccd42498459b5cf5ab820b, type: 3}
-  m_Color: {r: 0, g: 0.20941886, b: 0.9811321, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6c30dd4e47ae0c5469855c4f87ae2299, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -27665,9 +27665,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 94
+  arrayNum: 95
   ThisItemName: Popular
-  itemNum: 94
+  itemNum: 95
   NumInThis: 7
   PickUp: {fileID: 1651084043}
   pickupSound: {fileID: 1919620297}
@@ -34561,6 +34561,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 1844191813266838, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4299952606933750, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -37169,8 +37173,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794023739}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7099991, y: -1.1299973, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.75, y: 2.7, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1862015761}
   m_RootOrder: 0
@@ -37193,7 +37197,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c85748c8297b0c84bb9beab0286e114f, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37214,8 +37218,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: 164259881bccd42498459b5cf5ab820b, type: 3}
-  m_Color: {r: 0.33849514, g: 0.2783019, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6c30dd4e47ae0c5469855c4f87ae2299, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -39764,9 +39768,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 98
+  arrayNum: 99
   ThisItemName: Defraud
-  itemNum: 98
+  itemNum: 99
   NumInThis: 11
   PickUp: {fileID: 935376974}
   pickupSound: {fileID: 1919620297}
@@ -54927,9 +54931,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 95
+  arrayNum: 96
   ThisItemName: Thorough
-  itemNum: 95
+  itemNum: 96
   NumInThis: 8
   PickUp: {fileID: 1719186143}
   pickupSound: {fileID: 1919620297}
@@ -57900,9 +57904,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 93
+  arrayNum: 94
   ThisItemName: Undoubtedly
-  itemNum: 93
+  itemNum: 94
   NumInThis: 6
   PickUp: {fileID: 987345569}
   pickupSound: {fileID: 1919620297}
@@ -62050,7 +62054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323191791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -301.6, y: 12.6, z: 0}
+  m_LocalPosition: {x: -301.6, y: 14.4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1439301308}
@@ -78389,9 +78393,9 @@ MonoBehaviour:
   treeSpeechController: {fileID: 2044763247}
   itemController: {fileID: 1180069294}
   lang: {fileID: 2044763248}
-  arrayNum: 96
+  arrayNum: 97
   ThisItemName: Client
-  itemNum: 96
+  itemNum: 97
   NumInThis: 9
   PickUp: {fileID: 71527866}
   pickupSound: {fileID: 1919620297}
