@@ -10883,6 +10883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5ce176924d18b47a5ab357af1c9ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnakeEye: 1
+  IceWize: 0
   animator: {fileID: 4011038987353855710}
   targrotationup: {fileID: 1910801785580473709}
   targrotationdown: {fileID: 8533211461193067161}
@@ -10898,7 +10900,8 @@ MonoBehaviour:
   dienowsound: {fileID: 1750543971}
   BulletPos: {fileID: 7779161226736966709}
   ShotParticle: {fileID: 1089817403045491278}
-  ShootRate: 2
+  ShootRate: 1.5
+  shootstart: 0
 --- !u!1 &6018994824062243387
 GameObject:
   m_ObjectHideFlags: 0
