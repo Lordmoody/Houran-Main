@@ -56,6 +56,7 @@ public class PlayerHealth : MonoBehaviour
         this.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
         this.gameObject.GetComponent<CombatScript>().enabled = false;
         this.gameObject.GetComponent<NewPlayerMovementP>().enabled = false;
+        CheckForGuide.ItemTillNow = 0;
         OnDeath.Invoke();
         Destroy(this.gameObject , 3f);
     }
