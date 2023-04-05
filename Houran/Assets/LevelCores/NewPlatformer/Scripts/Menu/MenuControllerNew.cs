@@ -17,4 +17,9 @@ public class MenuControllerNew : MonoBehaviour
         audio.Play();
         Application.Quit();
     }
+    public void PlayMenu()
+    {
+        audio.Play();
+        SceneManager.LoadScene("Menu");
+    }
 }
