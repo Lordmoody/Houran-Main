@@ -45,6 +45,10 @@ public class LangController : MonoBehaviour
         Lang = code;
     }
 
+    public void Exit()
+    {
+        Application.Quit();
+    }
     public void Close(){
         langMenu.SetActive(false);
         MainMenu.SetActive(true);

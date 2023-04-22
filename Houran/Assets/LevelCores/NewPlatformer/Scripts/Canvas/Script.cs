@@ -30,9 +30,11 @@ public class Script : MonoBehaviour
 
 
    public GameObject VictoryPanel , UiCamera;
+ 
    
    public GameObject MainMenu;
-   
+   public GameObject Dictionary;
+    public GameObject ScrollViewEn, ScrollViewFr;
     // Start is called before the first frame update
     void Awake()
     {
@@ -99,6 +101,35 @@ public class Script : MonoBehaviour
     public void OpenMainMenu(){
         MainMenu.SetActive(true);
         Time.timeScale = 0;
+    }
+
+
+    public void OpenDictionary()
+    {
+
+        string x="";
+       
+            if (LangController.Lang == "Eng")
+            {
+            ScrollViewEn.SetActive(true);
+            ScrollViewFr.SetActive(false);
+        
+        }
+            else if (LangController.Lang == "Fr")
+            {
+
+            ScrollViewEn.SetActive(false);
+            ScrollViewFr.SetActive(true);
+
+        }
+        Dictionary.SetActive(true);
+        Time.timeScale = 0;
+    }
+   
+    public void CloseDictionary()
+    {
+        Dictionary.SetActive(false);
+        Time.timeScale = 1;
     }
     public void CloseMainMenu(){
         MainMenu.SetActive(false);
