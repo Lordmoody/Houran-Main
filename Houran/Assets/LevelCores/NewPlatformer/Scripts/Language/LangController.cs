@@ -33,6 +33,14 @@ public class LangController : MonoBehaviour
     void Start()
     {
         
+            /*string ab = "";
+            for (int i = 0; i < 100; i++)
+            {
+                ab +=  myPlayerList.player[i].fr + " : " + myPlayerList.player[i].trans + "\n";
+            }
+            Debug.Log(ab);
+        */
+
     }
 
     // Update is called once per frame

@@ -38,7 +38,8 @@ public class Script : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-       if(karench.activeSelf == true){
+        Karen();
+       if (karench.activeSelf == true){
            CurrentCharacter = karench;
        } 
        else if(avatch.activeSelf == true){

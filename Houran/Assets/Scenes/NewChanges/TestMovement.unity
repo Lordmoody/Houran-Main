@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7628,7 +7628,7 @@ PrefabInstance:
     - target: {fileID: 3466989265206912333, guid: 7725c76c1e9eabe40bc10915f3ac4ecd,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4172947428455785695, guid: 7725c76c1e9eabe40bc10915f3ac4ecd,
         type: 3}
@@ -7638,12 +7638,12 @@ PrefabInstance:
     - target: {fileID: 4172947428455785695, guid: 7725c76c1e9eabe40bc10915f3ac4ecd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.03
+      value: -241
       objectReference: {fileID: 0}
     - target: {fileID: 4172947428455785695, guid: 7725c76c1e9eabe40bc10915f3ac4ecd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.17
+      value: -64
       objectReference: {fileID: 0}
     - target: {fileID: 4172947428455785695, guid: 7725c76c1e9eabe40bc10915f3ac4ecd,
         type: 3}
@@ -14109,7 +14109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289435985}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 365.99942, y: 61.507053, z: -17.35018}
+  m_LocalPosition: {x: 63.969437, y: -0.32294762, z: -17.35018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 165975089}
@@ -37551,7 +37551,7 @@ RectTransform:
   m_Father: {fileID: 745906752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.94852245}
+  m_AnchorMin: {x: 0, y: 0.95124817}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -46933,8 +46933,9 @@ GameObject:
   m_Component:
   - component: {fileID: 981718423}
   - component: {fileID: 981718425}
-  - component: {fileID: 981718424}
   - component: {fileID: 981718426}
+  - component: {fileID: 981718424}
+  - component: {fileID: 981718427}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -46958,8 +46959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 3689.3909}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
+  m_SizeDelta: {x: 0, y: 3849.1243}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &981718424
 MonoBehaviour:
@@ -46970,7 +46971,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 981718422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: a4bde79e34a564d4180a115864f98c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -46981,25 +46982,72 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 501b55264a7d49b4786b1c840a20aaf0, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "LVL 1:\n\nApple\r\nOrange\r\nCoconut\r\nBanana\r\n\n\n\n\nLVL 2:\n\n\nCat\r\nElephant\r\nFox\r\nFish\r\nWolf\r\nBear\r\nMonkey\r\nHorse\r\nLion\r\nDog\r\nSheep\r\nPig\r\n\n\n\nLVL
-    3:\n\n\nTalk\r\nUse\r\nWant\r\nLook\r\nCome\r\nSee\r\nKnow\r\nMake\r\nGet\r\nGo\r\nSay\r\nDo\r\n\n\n\nLVL
-    4:\n\n\nAbandon\r\nKeen\r\nJealous\r\nTact\r\nOath\r\nVacant\r\nHardship\r\nGallant\r\nData\r\nUnaccustomed\r\nBachelor\r\nQualify\r\n\nLVL
-    5:\n\n\nCorpse\r\nConceal\r\nDismal\r\nFrigid\r\nInhabit\r\nNumb\r\nPeril\r\nRecline\r\nShriek\r\nSinister\r\nTempt\r\nWager\r\n\n\nLVL6:\n\n\nTypical\r\nMinimum\r\nScarce\r\nAnnual\r\nPersuade\r\nEssential\r\nBlend\r\nVisible\r\nExpensive\r\nTalent\r\nDevise\r\nWholesale\r\n\n\n\nLVL
-    7:\n\n\nVapor\r\nEliminate\r\nVillain\r\nDense\r\nUtilize\r\nHumid\r\nTheory\r\nDescend\r\nCirculate\r\nEnormous\r\nPredict\r\nVanish\r\n\n\n\nLVL
-    8:\n\n\nTradition\r\nRural\r\nBurden\r\nCampus \r\nMajority\r\nAssemble\r\nExplore\r\nTopic\r\nDebate\r\nEvade\r\nProbe\r\nReform\r\n\n\n\nLVL
-    9:\n\n\nApproach\r\nDetect\r\nDefect\r\nEmployee\r\nNeglect\r\nDeceive\r\nUndoubtedly\r\nPopular\r\nThorough\r\nClient\r\nComprehensive\r\nDefraud"
+  m_Text: "LVL 1:\r\n\r\nApple : \u0633\u06CC\u0628\nOrange : \u067E\u0631\u062A\u0642\u0627\u0644\nCoconut
+    : \u0646\u0627\u0631\u06AF\u06CC\u0644\nBanana : \u0645\u0648\u0632\n\r\n\r\n\r\n\r\nLVL
+    2:\r\n\r\n\r\nCat : \u06AF\u0631\u0628\u0647\nElephant : \u0641\u06CC\u0644\nFox
+    : \u0631\u0648\u0628\u0627\u0647\nFish : \u0645\u0627\u0647\u06CC\nWolf : \u06AF\u0631\u06AF\nBear
+    : \u062E\u0631\u0633\nMonkey : \u0645\u06CC\u0645\u0648\u0646\nHorse : \u0627\u0633\u0628\nLion
+    : \u0634\u06CC\u0631\nDog : \u0633\u06AF\nSheep : \u06AF\u0648\u0633\u0641\u0646\u062F\nPig
+    : \u062E\u0648\u06A9\n\r\n\r\nLVL 3:\r\n\r\n\r\nDog : \u0633\u06AF\nSheep : \u06AF\u0648\u0633\u0641\u0646\u062F\nPig
+    : \u062E\u0648\u06A9\nTalk : \u0635\u062D\u0628\u062A \u06A9\u0631\u062F\u0646\nUse
+    : \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u06A9\u0631\u062F\u0646\nWant :
+    \u062E\u0648\u0627\u0633\u062A\u0646\nLook : \u0646\u06AF\u0627\u0647 \u06A9\u0631\u062F\u0646\nCome
+    : \u0622\u0645\u062F\u0646\nSee : \u062F\u06CC\u062F\u0646\nKnow : \u062F\u0627\u0646\u0633\u062A\u0646\nMake
+    : \u0633\u0627\u062E\u062A\u0646\nGet : \u06AF\u0631\u0641\u062A\u0646\nGo :
+    \u0631\u0641\u062A\u0646\nSay : \u06AF\u0641\u062A\u0646\nDo : \u0627\u0646\u062C\u0627\u0645
+    \u062F\u0627\u062F\u0646\n\r\n\r\nLVL 4:\r\n\r\n\r\nAbandon : \u062A\u0631\u06A9
+    \u06A9\u0631\u062F\u0646\nKeen : \u062A\u06CC\u0632\u060C\u0645\u0634\u062A\u0627\u0642\nJealous
+    : \u062D\u0633\u0648\u062F\nTact : \u062A\u062F\u0628\u06CC\u0631\nOath : \u0633\u0648\u06AF\u0646\u062F\u060C\u062F\u0634\u0646\u0627\u0645\nVacant
+    : \u062E\u0627\u0644\u06CC\nHardship : \u0633\u062E\u062A\u06CC\nGallant : \u0634\u062C\u0627\u0639\u060C\u062C\u0646\u062A\u0644\u0645\u0646\nData
+    : \u0627\u0637\u0644\u0627\u0639\u0627\u062A\nUnaccustomed : \u063A\u06CC\u0631\u0639\u0627\u062F\u06CC\nBachelor
+    : \u0645\u0631\u062F \u0645\u062C\u0631\u062F\nQualify : \u0648\u0627\u062C\u062F
+    \u0634\u0631\u0627\u06CC\u0637\n\nLVL 5:\r\n\r\n\r\nCorpse : \u062C\u0646\u0627\u0632\u0647\nConceal
+    : \u067E\u0646\u0647\u0627\u0646 \u06A9\u0631\u062F\u0646\nDismal : \u062F\u0644\u06AF\u06CC\u0631\nFrigid
+    : \u0645\u0646\u062C\u0645\u062F\nInhabit : \u0633\u0627\u06A9\u0646 \u0634\u062F\u0646\nNumb
+    : \u0628\u06CC \u062D\u0633 \u0634\u062F\u0646\nPeril : \u062E\u0637\u0631\nRecline
+    : \u062F\u0631\u0627\u0632\u06A9\u0634\u06CC\u062F\u0646\nShriek : \u062C\u06CC\u063A
+    \u0632\u062F\u0646\nSinister : \u067E\u0644\u06CC\u062F\nTempt : \u0648\u0633\u0648\u0633\u0647
+    \u06A9\u0631\u062F\u0646\nWager : \u0634\u0631\u0637\u0628\u0646\u062F\u06CC\n\n\r\nLVL6:\r\n\r\n\r\nTypical
+    : \u0645\u0639\u0645\u0648\u0644\nMinimum : \u06A9\u0645\u062A\u0631\u06CC\u0646\nScarce
+    : \u06A9\u0645\u06CC\u0627\u0628\nAnnual : \u0633\u0627\u0644\u0627\u0646\u0647\nPersuade
+    : \u0642\u0627\u0646\u0639 \u06A9\u0631\u062F\u0646\nEssential : \u0636\u0631\u0648\u0631\u06CC\nBlend
+    : \u062A\u0631\u06A9\u06CC\u0628 \u06A9\u0631\u062F\u0646\nVisible : \u0642\u0627\u0628\u0644
+    \u062F\u06CC\u062F\u0646\nExpensive : \u06AF\u0631\u0627\u0646\nTalent : \u0627\u0633\u062A\u0639\u062F\u0627\u062F\nDevise
+    : \u0646\u0642\u0634\u0647 \u06A9\u0634\u06CC\u062F\u0646\nWholesale : \u0639\u0645\u062F\u0647
+    \u0641\u0631\u0648\u0634\u06CC\n\n\r\n\r\nLVL 7:\r\n\r\n\r\nVapor : \u0645\u0647\u060C\u0628\u062E\u0627\u0631\nEliminate
+    : \u0627\u0632 \u0628\u06CC\u0646 \u0628\u0631\u062F\u0646\nVillain : \u0634\u0631\u0648\u0631\nDense
+    : \u0645\u062A\u0631\u0627\u06A9\u0645\nUtilize : \u0628\u0647 \u06A9\u0627\u0631
+    \u0628\u0631\u062F\u0646\nHumid : \u0645\u0631\u0637\u0648\u0628\nTheory : \u0646\u0638\u0631\u06CC\u0647\nDescend
+    : \u067E\u0627\u06CC\u06CC\u0646 \u0622\u0645\u062F\u0646\nCirculate : \u0686\u0631\u062E\u06CC\u062F\u0646\nEnormous
+    : \u0628\u0633\u06CC\u0627\u0631 \u0628\u0632\u0631\u06AF\nPredict : \u067E\u06CC\u0634
+    \u0628\u06CC\u0646\u06CC \u06A9\u0631\u062F\u0646\nVanish : \u0646\u0627\u067E\u062F\u06CC\u062F
+    \u0634\u062F\u0646\n\n\r\n\r\nLVL 8:\r\n\r\n\r\nTradition : \u0633\u0646\u062A\u060C
+    \u0631\u0633\u0645\nRural : \u0631\u0648\u0633\u062A\u0627\u06CC\u06CC\nBurden
+    : \u0628\u0627\u0631\nCampus  : \u0645\u062D\u0648\u0637\u0647 \u062F\u0627\u0646\u0634\u06AF\u0627\u0647\nMajority
+    : \u0627\u06A9\u062B\u0631\u06CC\u062A\nAssemble : \u0633\u0631 \u0647\u0645
+    \u06A9\u0631\u062F\u0646\nExplore : \u0628\u0631\u0631\u0633\u06CC \u06A9\u0631\u062F\u0646\nTopic
+    : \u0645\u0628\u062D\u062B\nDebate : \u0645\u0646\u0627\u0638\u0631\u0647\nEvade
+    : \u0637\u0641\u0631\u0647 \u0631\u0641\u062A\u0646\nProbe : \u067E\u0648\u06CC\u0634
+    \u06A9\u0631\u062F\u0646\nReform : \u0627\u0635\u0644\u0627\u062D\u0627\u062A\n\r\n\r\n\r\nLVL
+    9:\r\n\r\n\r\nApproach : \u0646\u0632\u062F\u06CC\u06A9 \u0634\u062F\u0646\nDetect
+    : \u06A9\u0634\u0641 \u06A9\u0631\u062F\u0646\nDefect : \u0646\u0627\u0642\u0635\nEmployee
+    : \u06A9\u0627\u0631\u0645\u0646\u062F\nNeglect : \u0628\u06CC \u062A\u0648\u062C\u0647\u06CC\nDeceive
+    : \u0641\u0631\u06CC\u0628 \u062F\u0627\u062F\u0646\nUndoubtedly : \u0628\u062F\u0648\u0646
+    \u0634\u06A9\u060C\u0642\u0637\u0639\u0627\nPopular : \u0645\u062D\u0628\u0648\u0628\nThorough
+    : \u06A9\u0627\u0645\u0644\nClient : \u0645\u0634\u062A\u0631\u06CC\nComprehensive
+    : \u062C\u0627\u0645\u0639\nDefraud : \u06A9\u0644\u0627\u0647\u0628\u0631\u062F\u0627\u0631\u06CC"
 --- !u!222 &981718425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47022,6 +47070,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &981718427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981718422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4728b011492ad4c981d2e16136bad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &982629823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47930,6 +47990,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f060e1d3b43ad734a803fe2a9c9d76ff, type: 3}
+--- !u!224 &995281672 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 508371419, guid: 82efa217e016bb648816736dd529cd18,
+    type: 3}
+  m_PrefabInstance: {fileID: 1205135732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &997514516
 GameObject:
   m_ObjectHideFlags: 0
@@ -53858,7 +53924,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133173439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 365.99942, y: 65.747055, z: -17.35018}
+  m_LocalPosition: {x: 63.969437, y: 3.9170542, z: -17.35018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1842099210}
@@ -61348,8 +61414,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1286311809}
   - component: {fileID: 1286311812}
-  - component: {fileID: 1286311811}
   - component: {fileID: 1286311810}
+  - component: {fileID: 1286311811}
+  - component: {fileID: 1286311813}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -61374,7 +61441,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 2427.8928}
+  m_SizeDelta: {x: 0, y: 4093.5376}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1286311810
 MonoBehaviour:
@@ -61399,32 +61466,85 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286311808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: a4bde79e34a564d4180a115864f98c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 501b55264a7d49b4786b1c840a20aaf0, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pomme\r\norange\r\nnoix de coco\r\nBanane\r\nle chat\r\nl'\xE9l\xE9phant\r\nle
-    renard\r\nle poisson\r\nle loup\r\nl' ours\r\nle singe\r\nle cheval\r\nlion\r\nchien\r\nmouton\r\nporc\r\nparler\r\nutiliser\r\nvouloir\r\nregarder\r\nViens\r\nvoir\r\nsavoir\r\nFabriquer\r\nobtenir\r\naller\r\ndire\r\nfais\r\nAbandonner\r\nEnthousiaste\r\nJaloux\r\nTact\r\nSerment\r\nVacant\r\n\xC9preuves\r\nGalant\r\ninformations\r\nInhabituel\r\nc\xE9libataire\r\nQualifier\r\nCorps\r\nCacher\r\nLugubre\r\nFroid\r\nHabiter\r\nEngourdi\r\nP\xE9ril\r\nreposer\r\nCri\r\nSinistre\r\ns\xE9duire\r\nPari\r\nTypique\r\nminimum\r\nRare\r\nAnnuel\r\nPersuader\r\nessential\r\nM\xE9lange\r\nVisible\r\ncher\r\nTalent\r\nConcevoir\r\nDe
-    gros\r\nVapeur\r\n\xC9liminer\r\nsc\xE9l\xE9rat\r\nDense\r\nUtiliser\r\nHumide\r\nth\xE9orie\r\nDescendre\r\nCirculer\r\n\xC9norme\r\nPr\xE9dire\r\nDispara\xEEtre\r\npapdasdas\r\nrural\r\nfardeau\r\nCampus\r\nMajorit\xE9\r\nAssembler\r\nExplorer\r\nSujet\r\nD\xE9bat\r\n\xC9luder\r\nSonde\r\nR\xE9forme\r\nApproche\r\nD\xE9tecter\r\nD\xE9faut\r\nEmploy\xE9\r\nN\xE9gligence\r\nTromper\r\nIndubitablement\r\nPopulaire\r\nMinutieux\r\nClient\r\nComplet\r\nFrauder"
+  m_Text: "LVL 1:\r\n \nPomme : \u0633\u06CC\u0628\norange : \u067E\u0631\u062A\u0642\u0627\u0644\nnoix
+    de coco : \u0646\u0627\u0631\u06AF\u06CC\u0644\nBanane : \u0645\u0648\u0632\n\r\n\r\n\r\n\r\nLVL
+    2:\r\n\r\n\r\n\nle chat : \u06AF\u0631\u0628\u0647\nl'\xE9l\xE9phant : \u0641\u06CC\u0644\nle
+    renard : \u0631\u0648\u0628\u0627\u0647\nle poisson : \u0645\u0627\u0647\u06CC\nle
+    loup : \u06AF\u0631\u06AF\nl' ours : \u062E\u0631\u0633\nle singe : \u0645\u06CC\u0645\u0648\u0646\nle
+    cheval : \u0627\u0633\u0628\nlion : \u0634\u06CC\u0631\nchien : \u0633\u06AF\nmouton
+    : \u06AF\u0648\u0633\u0641\u0646\u062F\nporc : \u062E\u0648\u06A9\n\r\n\n\r\nLVL
+    3:\r\n\r\n\r\n\nparler : \u0635\u062D\u0628\u062A \u06A9\u0631\u062F\u0646\nutiliser
+    : \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u06A9\u0631\u062F\u0646\nvouloir
+    : \u062E\u0648\u0627\u0633\u062A\u0646\nregarder : \u0646\u06AF\u0627\u0647 \u06A9\u0631\u062F\u0646\nViens
+    : \u0622\u0645\u062F\u0646\nvoir : \u062F\u06CC\u062F\u0646\nsavoir : \u062F\u0627\u0646\u0633\u062A\u0646\nFabriquer
+    : \u0633\u0627\u062E\u062A\u0646\nobtenir : \u06AF\u0631\u0641\u062A\u0646\naller
+    : \u0631\u0641\u062A\u0646\ndire : \u06AF\u0641\u062A\u0646\nfais : \u0627\u0646\u062C\u0627\u0645
+    \u062F\u0627\u062F\u0646\n\r\n\n\r\nLVL 4:\r\n\r\n\r\n\nAbandonner : \u062A\u0631\u06A9
+    \u06A9\u0631\u062F\u0646\nEnthousiaste : \u062A\u06CC\u0632\u060C\u0645\u0634\u062A\u0627\u0642\nJaloux
+    : \u062D\u0633\u0648\u062F\nTact : \u062A\u062F\u0628\u06CC\u0631\nSerment :
+    \u0633\u0648\u06AF\u0646\u062F\u060C\u062F\u0634\u0646\u0627\u0645\nVacant :
+    \u062E\u0627\u0644\u06CC\n\xC9preuves : \u0633\u062E\u062A\u06CC\nGalant : \u0634\u062C\u0627\u0639\u060C\u062C\u0646\u062A\u0644\u0645\u0646\ninformations
+    : \u0627\u0637\u0644\u0627\u0639\u0627\u062A\nInhabituel : \u063A\u06CC\u0631\u0639\u0627\u062F\u06CC\nc\xE9libataire
+    : \u0645\u0631\u062F \u0645\u062C\u0631\u062F\nQualifier : \u0648\u0627\u062C\u062F
+    \u0634\u0631\u0627\u06CC\u0637\n\r\n\r\nLVL 5:\r\n\r\n\r\n\nCorps : \u062C\u0646\u0627\u0632\u0647\nCacher
+    : \u067E\u0646\u0647\u0627\u0646 \u06A9\u0631\u062F\u0646\nLugubre : \u062F\u0644\u06AF\u06CC\u0631\nFroid
+    : \u0645\u0646\u062C\u0645\u062F\nHabiter : \u0633\u0627\u06A9\u0646 \u0634\u062F\u0646\nEngourdi
+    : \u0628\u06CC \u062D\u0633 \u0634\u062F\u0646\nP\xE9ril : \u062E\u0637\u0631\nreposer
+    : \u062F\u0631\u0627\u0632\u06A9\u0634\u06CC\u062F\u0646\nCri : \u062C\u06CC\u063A
+    \u0632\u062F\u0646\nSinistre : \u067E\u0644\u06CC\u062F\ns\xE9duire : \u0648\u0633\u0648\u0633\u0647
+    \u06A9\u0631\u062F\u0646\nPari : \u0634\u0631\u0637\u0628\u0646\u062F\u06CC\n\r\n\r\n\nLVL
+    6:\r\n\r\n\r\n\nTypique : \u0645\u0639\u0645\u0648\u0644\nminimum : \u06A9\u0645\u062A\u0631\u06CC\u0646\nRare
+    : \u06A9\u0645\u06CC\u0627\u0628\nAnnuel : \u0633\u0627\u0644\u0627\u0646\u0647\nPersuader
+    : \u0642\u0627\u0646\u0639 \u06A9\u0631\u062F\u0646\nessential : \u0636\u0631\u0648\u0631\u06CC\nM\xE9lange
+    : \u062A\u0631\u06A9\u06CC\u0628 \u06A9\u0631\u062F\u0646\nVisible : \u0642\u0627\u0628\u0644
+    \u062F\u06CC\u062F\u0646\ncher : \u06AF\u0631\u0627\u0646\nTalent : \u0627\u0633\u062A\u0639\u062F\u0627\u062F\nConcevoir
+    : \u0646\u0642\u0634\u0647 \u06A9\u0634\u06CC\u062F\u0646\nDe gros : \u0639\u0645\u062F\u0647
+    \u0641\u0631\u0648\u0634\u06CC\n\n\r\n\r\nLVL 7:\r\n\r\n\r\n\nVapeur : \u0645\u0647\u060C\u0628\u062E\u0627\u0631\n\xC9liminer
+    : \u0627\u0632 \u0628\u06CC\u0646 \u0628\u0631\u062F\u0646\nsc\xE9l\xE9rat :
+    \u0634\u0631\u0648\u0631\nDense : \u0645\u062A\u0631\u0627\u06A9\u0645\nUtiliser
+    : \u0628\u0647 \u06A9\u0627\u0631 \u0628\u0631\u062F\u0646\nHumide : \u0645\u0631\u0637\u0648\u0628\nth\xE9orie
+    : \u0646\u0638\u0631\u06CC\u0647\nDescendre : \u067E\u0627\u06CC\u06CC\u0646
+    \u0622\u0645\u062F\u0646\nCirculer : \u0686\u0631\u062E\u06CC\u062F\u0646\n\xC9norme
+    : \u0628\u0633\u06CC\u0627\u0631 \u0628\u0632\u0631\u06AF\nPr\xE9dire : \u067E\u06CC\u0634
+    \u0628\u06CC\u0646\u06CC \u06A9\u0631\u062F\u0646\nDispara\xEEtre : \u0646\u0627\u067E\u062F\u06CC\u062F
+    \u0634\u062F\u0646\n\n\r\n\r\nLVL 8:\r\n\r\n\r\n\npapdasdas : \u0633\u0646\u062A\u060C
+    \u0631\u0633\u0645\nrural : \u0631\u0648\u0633\u062A\u0627\u06CC\u06CC\nfardeau
+    : \u0628\u0627\u0631\nCampus : \u0645\u062D\u0648\u0637\u0647 \u062F\u0627\u0646\u0634\u06AF\u0627\u0647\nMajorit\xE9
+    : \u0627\u06A9\u062B\u0631\u06CC\u062A\nAssembler : \u0633\u0631 \u0647\u0645
+    \u06A9\u0631\u062F\u0646\nExplorer : \u0628\u0631\u0631\u0633\u06CC \u06A9\u0631\u062F\u0646\nSujet
+    : \u0645\u0628\u062D\u062B\nD\xE9bat : \u0645\u0646\u0627\u0638\u0631\u0647\n\xC9luder
+    : \u0637\u0641\u0631\u0647 \u0631\u0641\u062A\u0646\nSonde : \u067E\u0648\u06CC\u0634
+    \u06A9\u0631\u062F\u0646\nR\xE9forme : \u0627\u0635\u0644\u0627\u062D\u0627\u062A\n\n\r\n\r\nLVL
+    9:\r\n\r\n\r\n\nApproche : \u0646\u0632\u062F\u06CC\u06A9 \u0634\u062F\u0646\nD\xE9tecter
+    : \u06A9\u0634\u0641 \u06A9\u0631\u062F\u0646\nD\xE9faut : \u0646\u0627\u0642\u0635\nEmploy\xE9
+    : \u06A9\u0627\u0631\u0645\u0646\u062F\nN\xE9gligence : \u0628\u06CC \u062A\u0648\u062C\u0647\u06CC\nTromper
+    : \u0641\u0631\u06CC\u0628 \u062F\u0627\u062F\u0646\nIndubitablement : \u0628\u062F\u0648\u0646
+    \u0634\u06A9\u060C\u0642\u0637\u0639\u0627\nPopulaire : \u0645\u062D\u0628\u0648\u0628\nMinutieux
+    : \u06A9\u0627\u0645\u0644\nClient : \u0645\u0634\u062A\u0631\u06CC\nComplet
+    : \u062C\u0627\u0645\u0639\nFrauder : \u06A9\u0644\u0627\u0647\u0628\u0631\u062F\u0627\u0631\u06CC"
 --- !u!222 &1286311812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -61433,6 +61553,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286311808}
   m_CullTransparentMesh: 0
+--- !u!114 &1286311813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286311808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4728b011492ad4c981d2e16136bad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1286621595
 GameObject:
   m_ObjectHideFlags: 0
@@ -67827,6 +67959,97 @@ Canvas:
   m_SortingLayerID: 2092550255
   m_SortingOrder: 50
   m_TargetDisplay: 0
+--- !u!1 &1418873498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418873499}
+  - component: {fileID: 1418873502}
+  - component: {fileID: 1418873501}
+  - component: {fileID: 1418873500}
+  m_Layer: 5
+  m_Name: RtlText(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1418873499
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418873498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 995281672}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1418873500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418873498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4728b011492ad4c981d2e16136bad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1418873501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418873498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bde79e34a564d4180a115864f98c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: bed17962dd34baf4fb0eb2869681fffc, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 5
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0645\u062A\u0646 \u0641\u0627\u0631\u0633\u064A"
+--- !u!222 &1418873502
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418873498}
+  m_CullTransparentMesh: 0
 --- !u!1 &1422209775
 GameObject:
   m_ObjectHideFlags: 0
@@ -73711,7 +73934,7 @@ RectTransform:
   m_Father: {fileID: 309654773}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.9238132}
+  m_AnchorMin: {x: 0, y: 0.95402515}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -79800,7 +80023,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1550584647}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.07618678
+  m_Size: 0.04597482
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -89735,6 +89958,97 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1924862304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1924862305}
+  - component: {fileID: 1924862308}
+  - component: {fileID: 1924862307}
+  - component: {fileID: 1924862306}
+  m_Layer: 5
+  m_Name: RtlText(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1924862305
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924862304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 995281672}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1924862306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924862304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4728b011492ad4c981d2e16136bad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1924862307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924862304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bde79e34a564d4180a115864f98c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: bed17962dd34baf4fb0eb2869681fffc, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 5
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0645\u062A\u0646 \u0641\u0627\u0631\u0633\u064A"
+--- !u!222 &1924862308
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924862304}
+  m_CullTransparentMesh: 0
 --- !u!1 &1925325826
 GameObject:
   m_ObjectHideFlags: 0
@@ -94219,7 +94533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044763239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 365.93, y: 67.03001, z: -10}
+  m_LocalPosition: {x: 63.899994, y: 5.2000027, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1313466384}
@@ -95194,7 +95508,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 785208932}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.05147756
+  m_Size: 0.04875182
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
